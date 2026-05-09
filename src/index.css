@@ -7,7 +7,64 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --electric-blue: #53cbf3;
+  --electric-blue-hover: #005bb5;
+  /* Primary Colors */
+  --color-navy-dark: #0B1F3B;
+  --color-navy: #122C54;
+  --color-navy-light: #1A3A6B;
+  --navy-blue-secondary: #1a3263;
+  --navy-blue:#10213D;
+
+  /* Gold Variants */
+  --color-gold: #D4AF37;
+  --color-gold-muted: #B68A2A;
+  --color-gold-dark: #A67C1A;
+  --gold: #c08b5c;
+}
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: var(--navy-blue);
+  color: white;
+}
+section > .container-fluid, footer > .container-fluid{
+  padding:3% 7%;
+}
+/* nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav */
+nav{
+  text-transform: capitalize;
+  background-color: var(--color-navy-dark);
+  
+}
+nav .container-fluid{
+  padding:1% 7% ;
+}
+/* animation animation animation animation animation animation */
+.sectionAnimationLeft{
+  scroll-behavior: smooth;
+  animation: backInLeft;
+  animation-duration: 1.5s;
+}
+.sectionAnimationDown{
+  scroll-behavior: smooth;
+  animation:fadeInDownBig;
+  animation-duration: 1.2s;
+}
+
+.sectionAnimationUp{
+  scroll-behavior: smooth;
+  animation:fadeInUpBig;
+  animation-duration: 1.2s;
+
+}
+.sectionAnimationRight{
+  scroll-behavior: smooth;
+  animation: backInRight;
+  animation-duration: 1.2s;
 }
