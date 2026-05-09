@@ -68,3 +68,20 @@ nav .container-fluid{
   animation: backInRight;
   animation-duration: 1.2s;
 }
+/* button button button button */
+.btn{
+  text-transform: capitalize;
+   white-space: nowrap;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   border-radius: 50px;
+  } 
+.btnPrimary{
+    background-color: var(--color-navy-light);
+  
+  color: white;
+}
+.btnPrimary:hover{
+background-color: var(--electric-blue-hover);
+  color: white;
+}

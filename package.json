@@ -1,5 +1,4 @@
 {
-  
   "name": "talgenixbyseun",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +11,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "antd": "^6.3.7",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "react-router-dom": "^7.15.0",
