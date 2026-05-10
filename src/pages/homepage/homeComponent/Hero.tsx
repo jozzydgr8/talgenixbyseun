@@ -10,6 +10,9 @@ export const Hero = ()=>{
     const headerButton = document.querySelector('.heroBottom');
     headerButton?.classList.add('sectionAnimationUp');
 
+    const headerImage = document.querySelector('.heroImage');
+    headerImage?.classList.add('sectionAnimationUp');
+
     const heroBadge = document.querySelector('.heroBadge');
     heroBadge?.classList.add('sectionAnimationDown');
     }, []);
@@ -50,7 +53,7 @@ export const Hero = ()=>{
                         </div>
                         </div>
                     </div>
-                    <div className="col-md-6 text-center">
+                    <div className="col-md-6 text-center heroImage">
                             <img className='hero-image' src={heroImage} alt="" />
                     </div>
                 </div>
