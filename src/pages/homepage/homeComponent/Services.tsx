@@ -9,7 +9,7 @@ export const Services = ()=>{
                 <br/>
                 <div className="row">
                     {servicesData.map((service, index)=>(
-                        <div className="col-md-3" key={index} style={{marginBottom:'20px'}}>
+                        <div className="col-lg-3 col-md-4 col-sm-6 col-12" key={index} style={{marginBottom:'20px'}}>
                             <div className='serviceCard d-flex flex-column h-100 animate-up'>
                                 <div className='divImage' style={{backgroundImage:`url(${service.image})`, width:"100%",
                                  backgroundSize:"cover", backgroundPosition:"center", height:"200px", borderRadius:"8px"}}

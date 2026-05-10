@@ -16,7 +16,7 @@ export const Hero = ()=>{
     return(
         <section>
             <div className="container-fluid">
-                <div className="row align-items-center">
+                <div className="row align-items-center justify-content-center">
                     <div className='col-md-6'>
                         <h1 className="heroBadge">HEY! I'M SEUN OGUNSANYA</h1>
                         <h2 className="heroWrite">
@@ -50,7 +50,7 @@ export const Hero = ()=>{
                         </div>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 text-center">
                             <img className='hero-image' src={heroImage} alt="" />
                     </div>
                 </div>
