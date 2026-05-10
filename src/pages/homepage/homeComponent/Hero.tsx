@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { FlatButton } from "../../../shared/FlatButton";
 import {FacebookFilled, LinkedinFilled, InstagramFilled} from '@ant-design/icons';
+import heroImage from '../../../assets/corporateman.png'
 export const Hero = ()=>{
     useEffect(() => {
     const headerText = document.querySelector('.heroWrite');
@@ -15,7 +16,7 @@ export const Hero = ()=>{
     return(
         <section>
             <div className="container-fluid">
-                <div className="row">
+                <div className="row align-items-center">
                     <div className='col-md-6'>
                         <h1 className="heroBadge">HEY! I'M SEUN OGUNSANYA</h1>
                         <h2 className="heroWrite">
@@ -50,7 +51,7 @@ export const Hero = ()=>{
                         </div>
                     </div>
                     <div className="col-md-6">
-
+                            <img className='hero-image' src={heroImage} alt="" />
                     </div>
                 </div>
                 
