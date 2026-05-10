@@ -18,9 +18,9 @@ export const Hero = ()=>{
                 <div className="row">
                     <div className='col-md-6'>
                         <h1 className="heroBadge">HEY! I'M SEUN OGUNSANYA</h1>
-                        <h1 className="heroWrite">
-                            DATA ANALYST CONSULTANT |
-                        </h1>
+                        <h2 className="heroWrite">
+                            DATA ANALYST CONSULTANT 
+                        </h2>
                         <br/>
                         <div className="heroBottom">
                         <p>

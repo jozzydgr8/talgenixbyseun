@@ -32,7 +32,15 @@ body {
 body{
   background-color: var(--navy-blue);
   color: white;
+  font-family: 'Padauk', sans-serif;
 }
+h2,h3{
+font-family: 'Libre Franklin', sans-serif;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+}
+
 section > .container-fluid, footer > .container-fluid{
   padding:3% 7%;
 }
@@ -89,4 +97,10 @@ background-color: var(--electric-blue-hover);
 /* hero-section-hero-sectio */
 .heroWrite{
   color: var(--electric-blue-hover);
+}
+
+/* service-section srvivcesection service services */
+.homeHeader{
+  color: var(--electric-blue-hover);
+  text-align: center;
 }
