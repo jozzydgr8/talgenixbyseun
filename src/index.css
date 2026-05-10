@@ -32,13 +32,35 @@ body {
 body{
   background-color: var(--navy-blue);
   color: white;
-  font-family: 'Padauk', sans-serif;
-}
-h2,h3{
-font-family: 'Libre Franklin', sans-serif;
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 h1{
-  font-family: 'Poppins', sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+h2{
+  font-size:40px;
+  font-weight:900;
+  text-transform: capitalize;
+}
+h3{
+  font-weight: 700;
+}
+
+h4, h5, h6{
+  font-weight:300;
+}
+/*  */
+h2, h3, h4, h5, h6{
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
 }
 
 section > .container-fluid, footer > .container-fluid{
@@ -53,30 +75,16 @@ nav{
 nav .container-fluid{
   padding:1% 7% ;
 }
-/* animation animation animation animation animation animation */
-.sectionAnimationLeft{
-  scroll-behavior: smooth;
-  animation: backInLeft;
-  animation-duration: 1.5s;
-}
-.sectionAnimationDown{
-  scroll-behavior: smooth;
-  animation:fadeInDownBig;
-  animation-duration: 1.2s;
-}
 
-.sectionAnimationUp{
-  scroll-behavior: smooth;
-  animation:fadeInUpBig;
-  animation-duration: 1.2s;
-
-}
-.sectionAnimationRight{
-  scroll-behavior: smooth;
-  animation: backInRight;
-  animation-duration: 1.2s;
-}
 /* button button button button */
+.borderlessbtn{
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  color: var(--electric-blue);
+}
 .btn{
   text-transform: capitalize;
    white-space: nowrap;
@@ -100,7 +108,43 @@ background-color: var(--electric-blue-hover);
 }
 
 /* service-section srvivcesection service services */
-.homeHeader{
+.home-subheader,.homeHeader{
   color: var(--electric-blue-hover);
+  
+}
+.homeHeader{
   text-align: center;
+}
+.serviceCard{
+  background-color: var(--color-navy-dark);
+  padding: 30px;
+  border-radius:20px ;
+}
+
+
+
+
+
+/* animation animation animation animation animation animation */
+.sectionAnimationLeft{
+  scroll-behavior: smooth;
+  animation: backInLeft;
+  animation-duration: 1.5s;
+}
+.sectionAnimationDown{
+  scroll-behavior: smooth;
+  animation:fadeInDownBig;
+  animation-duration: 1.2s;
+}
+
+.sectionAnimationUp{
+  scroll-behavior: smooth;
+  animation:fadeInUpBig;
+  animation-duration: 1.2s;
+
+}
+.sectionAnimationRight{
+  scroll-behavior: smooth;
+  animation: backInRight;
+  animation-duration: 1.2s;
 }
