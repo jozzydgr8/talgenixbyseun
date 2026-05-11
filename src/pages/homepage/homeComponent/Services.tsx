@@ -6,7 +6,7 @@ export const Services = ()=>{
         <section>
             <div className="container-fluid">
                 <h2 className='homeHeader'>Explore Services</h2>
-                <br/>
+               
                 <div className="horizontal-scroll">
                     {servicesData.map((service, index) => (
                         <div className="service-wrapper" key={index}>
@@ -20,6 +20,7 @@ export const Services = ()=>{
                                 backgroundPosition: "center",
                                 height: "200px",
                                 borderRadius: "8px",
+                                marginBottom: "15px"
                             }}
                             ></div>
                             <h3 className='home-subheader'>{service.title}</h3>
@@ -37,6 +38,18 @@ export const Services = ()=>{
             </div>
         </section>
 
+
+
+
         
     )
 }
+
+
+{/* <div className="horizontal-scroll">
+  {items.map((item) => (
+    <div className="card" key={item.id}>
+      {item.title}
+    </div>
+  ))}
+</div> */}
