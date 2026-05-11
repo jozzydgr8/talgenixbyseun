@@ -22,9 +22,9 @@ export const Hero = ()=>{
                 <div className="row align-items-center justify-content-center">
                     <div className='col-md-6'>
                         <h1 className="heroBadge">HEY! I'M SEUN OGUNSANYA</h1>
-                        <h2 className="heroWrite">
+                        <h3 className="heroWrite">
                             DATA ANALYST CONSULTANT 
-                        </h2>
+                        </h3>
                         <br/>
                         <div className="heroBottom">
                         <p>

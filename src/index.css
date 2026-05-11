@@ -44,13 +44,10 @@ h1{
   font-style: normal;
 }
 h2{
-  font-size:40px;
   font-weight:900;
   text-transform: capitalize;
 }
-h3{
-  font-weight: 700;
-}
+
 
 h4, h5, h6{
   font-weight:300;
@@ -133,6 +130,25 @@ background-color: var(--electric-blue-hover);
   border-radius:20px ;
   box-shadow: 0 4px 6px -1px var(--electric-blue);
 }
+.horizontal-scroll {
+  display: flex;               /* arrange items horizontally */
+  gap: 20px;                   /* spacing between cards */
+  overflow-x: auto;            /* enable horizontal scroll */
+  padding: 12px;
+  scroll-behavior: smooth;     /* smooth scrolling */
+  scrollbar-width: thin;       /* optional styling for Firefox */
+}
+
+/* Hide scrollbar on Webkit browsers */
+.horizontal-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.service-wrapper {
+  flex: 0 0 300px;             /* width of each card, don't shrink */
+  display: flex;                /* keep the card inside flexible */
+  flex-direction: column;
+}
 
 
 
@@ -161,3 +177,4 @@ background-color: var(--electric-blue-hover);
   animation: backInRight;
   animation-duration: 1.2s;
 }
+
