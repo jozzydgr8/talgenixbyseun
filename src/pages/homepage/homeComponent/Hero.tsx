@@ -1,6 +1,13 @@
 import { useEffect } from "react";
 import { FlatButton } from "../../../shared/FlatButton";
-import {FacebookFilled, LinkedinFilled, InstagramFilled} from '@ant-design/icons';
+import {
+
+  RobotOutlined,
+  TeamOutlined,
+
+  LineChartOutlined,
+  FacebookFilled, LinkedinFilled, InstagramFilled
+} from "@ant-design/icons";
 import heroImage from '../../../assets/corporateman.png'
 export const Hero = ()=>{
     useEffect(() => {
@@ -52,7 +59,7 @@ export const Hero = ()=>{
 
                         </div>
                         <hr/>
-                            <div style={{display:'flex', gap:"20px"}}>
+                            <div className="hero-accolades">
                                 <div>
                                     <h3>50+</h3>
                                     <small>Projects Delivered</small>
@@ -74,8 +81,36 @@ export const Hero = ()=>{
                         </div>
                         </div>
                     </div>
-                    <div className="col-md-6 text-center heroImage">
-                            <img className='hero-image' src={heroImage} alt="" />
+                    <div className="col-md-6 text-center heroImageWrapper">
+
+                        {/* Floater 1 */}
+                        <div className="heroFloater floaterOne">
+                            <div className="floaterIcon"><LineChartOutlined/></div>
+                            <div>
+                                <strong>+240%</strong>
+                                <small>Growth Rate</small>
+                            </div>
+                        </div>
+
+                        {/* Floater 2 */}
+                        <div className="heroFloater floaterTwo">
+                            <div className="floaterIcon"><RobotOutlined/></div>
+                            <div>
+                                <strong>AI Solutions</strong>
+                                <small>24/7 Analytics</small>
+                            </div>
+                        </div>
+
+                        {/* Floater 3 */}
+                        <div className="heroFloater floaterThree">
+                            <div className="floaterIcon"><TeamOutlined/></div>
+                            <div>
+                                <strong>30+ Clients</strong>
+                                <small>Worldwide</small>
+                            </div>
+                        </div>
+
+                        <img className='hero-image' src={heroImage} alt="" />
                     </div>
                 </div>
                 

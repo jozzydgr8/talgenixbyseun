@@ -1,11 +1,4 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 
 :root {
   --electric-blue: #53cbf3;
@@ -36,6 +29,9 @@ body{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+   overflow-x: hidden;
+   margin: 0;
+   padding: 0;
 }
 h1{
   font-family: "Montserrat", sans-serif;
@@ -133,6 +129,192 @@ background-color: var(--electric-blue-hover);
 .hero-image{
     width: 80%;
 }
+}
+.hero-accolades{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.hero-accolades small{
+  color:rgb(196, 196, 196)
+}
+
+/* =========================
+   HERO IMAGE WRAPPER
+========================= */
+
+.heroImageWrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* =========================
+   FLOATERS
+========================= */
+
+.heroFloater{
+  position: absolute;
+  z-index: 5;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 14px 18px;
+
+  min-width: 180px;
+
+  background: rgba(255,255,255,0.08);
+
+  border: 1px solid rgba(255,255,255,0.12);
+
+  backdrop-filter: blur(14px);
+
+  border-radius: 18px;
+
+  box-shadow:
+    0 8px 32px rgba(0,0,0,0.18);
+
+  color: white;
+
+  animation: floating 6s ease-in-out infinite;
+}
+
+.heroFloater strong{
+  display: block;
+  font-size: 16px;
+}
+
+.heroFloater small{
+  color: rgba(255,255,255,0.7);
+}
+
+.floaterIcon{
+  width: 45px;
+  height: 45px;
+
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(
+    135deg,
+    var(--electric-blue),
+    #7c3aed
+  );
+
+  font-size: 20px;
+}
+
+/* =========================
+   FLOATER POSITIONS
+========================= */
+
+.floaterOne{
+  top: 12%;
+  left: -2%;
+}
+
+.floaterTwo{
+  top: 45%;
+  right: -5%;
+  animation-delay: 2s;
+}
+
+.floaterThree{
+  bottom: 8%;
+  left: 5%;
+  animation-delay: 4s;
+}
+
+/* =========================
+   FLOAT ANIMATION
+========================= */
+
+@keyframes floating{
+  0%{
+    transform: translateY(0px);
+  }
+
+  50%{
+  transform: translateY(-6px);
+}
+
+  100%{
+    transform: translateY(0px);
+  }
+}
+.heroImageWrapper::before{
+  content: '';
+
+  position: absolute;
+
+  width: 350px;
+  height: 350px;
+
+  background: var(--electric-blue);
+
+  filter: blur(120px);
+
+  opacity: 0.25;
+
+  z-index: 0;
+
+  top: 15%;
+}
+@media (max-width: 768px){
+
+  .heroImageWrapper{
+    overflow: hidden;
+  }
+
+  .heroFloater{
+    min-width: 140px;
+    padding: 10px 14px;
+  }
+
+  .heroFloater strong{
+    font-size: 14px;
+  }
+
+  .heroFloater small{
+    font-size: 11px;
+  }
+
+  .floaterIcon{
+    width: 38px;
+    height: 38px;
+    font-size: 18px;
+  }
+
+  /* Position fixes */
+
+  .floaterOne{
+    top: 8%;
+    left: 2%;
+    transform: scale(0.9);
+  }
+
+  .floaterTwo{
+    top: 50%;
+    right: 3%;
+    transform: scale(0.9);
+  }
+
+  .floaterThree{
+    bottom: 5%;
+    left: 8%;
+    transform: scale(0.85);
+  }
+
+  .hero-image{
+    width: 90%;
+  }
 }
 
 /* service-section srvivcesection service services */
