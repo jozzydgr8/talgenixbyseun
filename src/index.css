@@ -98,8 +98,27 @@ nav .container-fluid{
 background-color: var(--electric-blue-hover);
   color: white;
 }
+.btn-xl {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
 
 /* hero-section-hero-sectio */
+#hero{
+  background-image: url('./assets/dataAnalysisImage.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#hero .container-fluid{
+  height: 100%;
+  background: linear-gradient(
+  to right,
+  var(--navy-blue),
+  transparent 500% 
+  
+);}
 .heroWrite{
   color: var(--electric-blue-hover);
 }
