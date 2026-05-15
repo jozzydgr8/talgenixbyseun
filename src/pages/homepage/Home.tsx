@@ -1,4 +1,5 @@
 import { Hero } from "./homeComponent/Hero"
+import { Portfolio } from "./homeComponent/Portfolio"
 import { Services } from "./homeComponent/Services"
 
 export const Home = ()=>{
@@ -6,6 +7,7 @@ export const Home = ()=>{
         <>
         <Hero/>
         <Services/>
+        <Portfolio/>
         </>
     )
 }

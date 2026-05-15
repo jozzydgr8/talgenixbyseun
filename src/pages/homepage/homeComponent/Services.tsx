@@ -1,10 +1,21 @@
 import {servicesData} from '../../../shared/Data'
 import { FlatButton } from '../../../shared/FlatButton'
 import {RightOutlined} from '@ant-design/icons'
+import { Badge } from 'antd';
 export const Services = ()=>{
     return(
         <section>
             <div className="container-fluid">
+                <div style={{textAlign:'center'}}>
+                    
+                    
+                    
+                   <span className='homeBadgeParent animate-down'> 
+                    <span className='homeBadge'></span>
+                    What I Offer
+                    </span>
+                </div>
+                <br/>
                 <h2 className='homeHeader'>Services that drive results</h2>
                 <p className='subtopic'>Comprehensive data and AI solutions tailored
                      to transform your business operations and decision-making processes.
@@ -31,6 +42,10 @@ export const Services = ()=>{
                         </div>
                         </div>
                     ))}
+                </div>
+                <br/>
+                <div style={{textAlign:'center'}}>
+                    <FlatButton title="Explore all services" className='btn-xl btnPrimary btn'/>
                 </div>
                     
             </div>

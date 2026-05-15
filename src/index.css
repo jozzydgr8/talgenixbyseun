@@ -3,6 +3,7 @@
 :root {
   --electric-blue: #53cbf3;
   --electric-blue-hover: #005bb5;
+  --electric-blue-second: #98def5;
   /* Primary Colors */
   --color-navy-dark: #0B1F3B;
   --color-navy: #122C54;
@@ -56,7 +57,7 @@ h2, h3, h4, h5, h6{
   font-style: normal;
 }
 /* Subtopic paragraph styling */
-p.subtopic {
+p.subtopic, .homeBadgeParent {
     font-size: 20px; /* bigger than body text */
     font-weight: 500; /* slightly bolder, optional */
     margin-top: 10px;
@@ -68,6 +69,26 @@ p.subtopic {
 }
 .homeHeader,p.subtopic{
   text-align: center;
+}
+.homeBadgeParent{
+  background-color: var(--electric-blue-second);
+  color: var(--color-navy);
+  text-transform: capitalize;
+  padding: 3px 10px;
+  border-radius: 20px;
+  color: var(--electric-blue-hover);
+ 
+  
+}
+.homeBadge{
+   display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: var(--electric-blue-hover);
+  border-radius: 50%;
+  margin-right: 5px;
+  vertical-align: middle;
+  
 }
 
 section > .container-fluid, footer > .container-fluid{
@@ -371,6 +392,17 @@ background-color: var(--electric-blue-hover);
 } */
 
 
+/* portfolio portfolio=section portfolio */
+#portfolio{
+  background-color: var(--color-navy-light);
+}
+
+.portfolioCard{
+  background-color: var(--color-navy);
+  border-radius:20px ;
+  
+ 
+}
 
 
 /* animation animation animation animation animation animation */
