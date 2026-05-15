@@ -55,6 +55,20 @@ h2, h3, h4, h5, h6{
 
   font-style: normal;
 }
+/* Subtopic paragraph styling */
+p.subtopic {
+    font-size: 20px; /* bigger than body text */
+    font-weight: 500; /* slightly bolder, optional */
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.home-subheader,.homeHeader{
+  color: var(--electric-blue-hover);
+  
+}
+.homeHeader,p.subtopic{
+  text-align: center;
+}
 
 section > .container-fluid, footer > .container-fluid{
   padding:3% 7%;
@@ -75,7 +89,6 @@ nav .container-fluid{
   border: none;
   margin: 0;
   padding: 0;
-  text-decoration: underline;
   color: var(--electric-blue);
 }
 .btn{
@@ -318,38 +331,44 @@ background-color: var(--electric-blue-hover);
 }
 
 /* service-section srvivcesection service services */
-.home-subheader,.homeHeader{
-  color: var(--electric-blue-hover);
-  
-}
-.homeHeader{
-  text-align: center;
+
+
+.icon-style {
+  font-size: 32px;
+  background: linear-gradient(135deg, #1890ff, #69c0ff); /* gradient from dark to light blue */
+  color: white;
+  padding: 14px;
+  border-radius: 10px;
+  display: inline-flex; /* ensures icon stays centered if needed */
+  align-items: center;
+  justify-content: center;
 }
 .serviceCard{
   background-color: var(--color-navy-dark);
   padding: 30px;
   border-radius:20px ;
   box-shadow: 0 4px 6px -1px var(--electric-blue);
+ 
 }
-.horizontal-scroll {
-  display: flex;               /* arrange items horizontally */
-  gap: 20px;                   /* spacing between cards */
-  overflow-x: auto;            /* enable horizontal scroll */
+/* .horizontal-scroll {
+  display: flex;                arrange items horizontally 
+  gap: 20px;                    spacing between cards 
+  overflow-x: auto;             enable horizontal scroll 
   padding: 12px;
-  scroll-behavior: smooth;     /* smooth scrolling */
-  scrollbar-width: thin;       /* optional styling for Firefox */
-}
+  scroll-behavior: smooth;      smooth scrolling 
+  scrollbar-width: thin;        optional styling for Firefox 
+} */
 
 /* Hide scrollbar on Webkit browsers */
-.horizontal-scroll::-webkit-scrollbar {
+/* .horizontal-scroll::-webkit-scrollbar {
   display: none;
-}
+} */
 
-.service-wrapper {
-  flex: 0 0 300px;             /* width of each card, don't shrink */
-  display: flex;                /* keep the card inside flexible */
+/* .service-wrapper {
+  flex: 0 0 300px;              width of each card, don't shrink 
+  display: flex;                 keep the card inside flexible 
   flex-direction: column;
-}
+} */
 
 
 

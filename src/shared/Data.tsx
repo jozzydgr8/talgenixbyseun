@@ -1,43 +1,53 @@
-import dataAnalysisImage from "../assets/dataAnalysisImage.jpg";
-import businessIntelligenceImage from "../assets/BusinessIntelligence.jpg";
-import aiSolutionsImage from "../assets/AiImage.jpg";
-import processAutomationImage from "../assets/automationImage.jpg";
-import corporateTrainingImage from "../assets/corporateTrainingImage.jpg";  
+import {
+  BarChartOutlined,
+  DashboardOutlined,
+  RobotOutlined,
+  SyncOutlined,
+  TeamOutlined,
+  SolutionOutlined
+} from '@ant-design/icons';
 
 export const servicesData = [
   {
-    title: "Data Analysis",
-    image: dataAnalysisImage,
+    title: "Data Analytics",
+    icon: <BarChartOutlined className='icon-style' />,
     description:
-      "Transform raw and complex datasets into meaningful insights with advanced analytics tools, helping businesses make smarter decisions, improve performance, and uncover new growth opportunities with confidence.",
+      "Transform raw data into meaningful insights that drive strategic business decisions and growth opportunities.",
     cta: "Learn More"
   },
   {
     title: "Business Intelligence",
-    image: businessIntelligenceImage,
+    icon: <DashboardOutlined className='icon-style' />,
     description:
-      "Monitor business performance through interactive dashboards and detailed reporting solutions that provide clear visibility into operations, trends, and key metrics for better strategic planning.",
-    cta: "View Solutions"
+      "Build powerful dashboards and reporting systems with Power BI and Tableau that visualize your key metrics.",
+    cta: "Learn More"
   },
   {
     title: "AI Solutions",
-    image: aiSolutionsImage,
+    icon: <RobotOutlined className='icon-style'/>,
     description:
-      "Leverage intelligent AI-powered solutions to streamline workflows, improve productivity, automate decision-making, and create innovative systems that support business growth and operational efficiency.",
-    cta: "Get Started"
+      "Leverage machine learning and AI to automate processes, predict trends, and gain competitive advantages.",
+    cta: "Learn More"
   },
   {
     title: "Process Automation",
-    image: processAutomationImage,
+    icon: <SyncOutlined className='icon-style' />,
     description:
-      "Automate repetitive business processes and manual operations using modern digital tools that improve accuracy, reduce operational costs, increase efficiency, and save valuable organizational time.",
-    cta: "Explore More"
+      "Streamline repetitive tasks and workflows to increase efficiency, reduce errors, and save valuable time.",
+    cta: "Learn More"
   },
   {
     title: "Corporate Training",
-    image: corporateTrainingImage,
+    icon: <TeamOutlined className='icon-style' />,
     description:
-      "Provide teams with practical, industry-focused training programs designed to improve technical skills, boost productivity, and equip employees with knowledge needed for modern business environments.",
-    cta: "Book Training"
+      "Upskill your team with hands-on training in data analytics, BI tools, and AI technologies.",
+    cta: "Learn More"
+  },
+  {
+    title: "Consulting Services",
+    icon: <SolutionOutlined className='icon-style'/>,
+    description:
+      "Strategic guidance for your data journey, from roadmap development to implementation support.",
+    cta: "Learn More"
   }
 ];
