@@ -173,3 +173,15 @@ export const trainingFeatures = [
       "Post-training mentorship and consulting to ensure implementation success"
   }
 ];
+
+ export const businessDetails = [
+  {
+  "email": "seun.ogunsanya@email.com",
+  "phone": "+1 (555) 123-4567",
+  "business_hours": {
+    "days": "Mon - Fri",
+    "hours": "9:00 AM - 6:00 PM"
+  },
+  "time_zone": "GMT/Africa"
+}
+]
