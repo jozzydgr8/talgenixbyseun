@@ -34,12 +34,12 @@ export const Navbar = () => {
             </li>
             <li className="nav-item">
               <a href={`#about`} className="nav-link active">
-                    About
+                    Services
               </a>
             </li>
             <li className="nav-item">
               <a href={`#mission`} className="nav-link active">
-                    Mission
+                    Projects
               </a>
             </li>
             <li className='nav-item'>
@@ -50,7 +50,7 @@ export const Navbar = () => {
             
             <li className="nav-item">
            
-                <FlatButton title='Get In Touch' className='btn btnPrimary 'onClick={()=>console.log('Hi, I’d like to get a free consultation for a construction project. I’d appreciate some guidance on the best options.')}/>
+                <FlatButton title='Get In Touch' className='btn btnPrimary  'onClick={()=>console.log('Hi, I’d like to get a free consultation for a construction project. I’d appreciate some guidance on the best options.')}/>
              
             </li>
 

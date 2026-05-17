@@ -10,7 +10,7 @@ export const Services = ()=>{
                     
                     
                     
-                   <span className='homeBadgeParent animate-down'> 
+                   <span className='homeBadgeParent '> 
                     <span className='homeBadge'></span>
                     What I Offer
                     </span>

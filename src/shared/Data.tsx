@@ -57,54 +57,119 @@ export const servicesData = [
   }
 ];
 
-
 export const portfolioData = [
   {
     tool: "Power BI",
     department: "Finance",
     project: "Financial KPI Dashboard",
-    description: "Real-time financial metrics tracking with automated reporting for a multinational corporation.",
+    description:
+      "Real-time financial metrics tracking with automated reporting for a multinational corporation.",
     cta: "View Project",
-    image: dataAnalytics // Financial KPI → Data Analytics image
+    image: dataAnalytics,
+    colors: {
+      accent: "#42D4FF",     // Neon Cyan text
+      secondary: "#0E7490",  // Deep Cyan bg
+      background: "#0F172A", // Slate Dark
+      text: "#E2E8F0"        // Soft White
+    }
   },
+
   {
     tool: "Tableau",
     department: "Sales",
     project: "Sales Analytics Platform",
-    description: "Comprehensive sales tracking dashboard with predictive analytics and trend visualization.",
+    description:
+      "Comprehensive sales tracking dashboard with predictive analytics and trend visualization.",
     cta: "View Project",
-    image: businessIntelligence // Tableau → Business Intelligence image
+    image: businessIntelligence,
+    colors: {
+      accent: "#FF7A59",     // Modern Orange
+      secondary: "#3B1D14",  // Burnt Dark
+      background: "#111827", // Charcoal
+      text: "#F9FAFB"        // Clean White
+    }
   },
+
   {
     tool: "AI/ML",
     department: "Automation",
     project: "AI-Driven Financial Forecasting",
-    description: "Machine learning models for predictive financial analysis and risk assessment.",
+    description:
+      "Machine learning models for predictive financial analysis and risk assessment.",
     cta: "View Project",
-    image: aiSolutions // AI/ML → AI Solutions image
+    image: aiSolutions,
+    colors: {
+      accent: "#A855F7",     // Electric Purple
+      secondary: "#2E1065",  // Deep Violet
+      background: "#0B1120", // Rich Navy
+      text: "#F5F3FF"        // Lavender White
+    }
   },
+
   {
     tool: "Power BI",
     department: "Operations",
     project: "Operations Analytics Hub",
-    description: "Centralized operations dashboard tracking KPIs across multiple departments.",
+    description:
+      "Centralized operations dashboard tracking KPIs across multiple departments.",
     cta: "View Project",
-    image: businessIntelligence // Operations → Business Intelligence image
+    image: businessIntelligence,
+    colors: {
+      accent: "#22C55E",     // Emerald
+      secondary: "#052E16",  // Forest Green
+      background: "#0A0F1C", // Deep Dark
+      text: "#ECFDF5"        // Mint White
+    }
   },
+
   {
     tool: "Data Automation",
     department: "Marketing",
     project: "Automated Marketing Analytics",
-    description: "AI-powered marketing automation with real-time campaign performance tracking.",
+    description:
+      "AI-powered marketing automation with real-time campaign performance tracking.",
     cta: "View Project",
-    image: automationImage // Marketing automation → Automation image
+    image: automationImage,
+    colors: {
+      accent: "#F472B6",     // Premium Pink
+      secondary: "#4A044E",  // Dark Magenta
+      background: "#111827", // Dark Gray
+      text: "#FDF2F8"        // Soft Pink White
+    }
   },
+
   {
     tool: "Python",
     department: "Analytics",
     project: "Customer Behavior Analysis",
-    description: "Deep-dive customer segmentation and behavior analysis using advanced analytics.",
+    description:
+      "Deep-dive customer segmentation and behavior analysis using advanced analytics.",
     cta: "View Project",
-    image: corporateTraining // Analytics → Corporate Training image
+    image: corporateTraining,
+    colors: {
+      accent: "#60A5FA",     // Sky Blue
+      secondary: "#172554",  // Deep Blue
+      background: "#020617", // Near Black
+      text: "#EFF6FF"        // Ice White
+    }
+  }
+];
+
+
+export const trainingFeatures = [
+  {
+    title: "Hands-On Workshops",
+    description:
+      "Practical, project-based training sessions tailored to your team's needs"
+  },
+  {
+    title: "Custom Curriculum",
+    description:
+      "Learning paths designed around your industry and business objectives"
+  },
+  {
+    title: "Ongoing Support",
+    description:
+      "Post-training mentorship and consulting to ensure implementation success"
   }
 ];

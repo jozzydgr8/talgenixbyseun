@@ -1,6 +1,7 @@
 import { Hero } from "./homeComponent/Hero"
 import { Portfolio } from "./homeComponent/Portfolio"
 import { Services } from "./homeComponent/Services"
+import { TrainingConsulting } from "./homeComponent/TrainingConsulting"
 
 export const Home = ()=>{
     return(
@@ -8,6 +9,7 @@ export const Home = ()=>{
         <Hero/>
         <Services/>
         <Portfolio/>
+        <TrainingConsulting/>
         </>
     )
 }

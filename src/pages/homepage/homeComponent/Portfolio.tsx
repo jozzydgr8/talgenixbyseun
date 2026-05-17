@@ -1,4 +1,5 @@
 import { portfolioData } from "../../../shared/Data"
+import { FlatButton } from "../../../shared/FlatButton"
 
 export const Portfolio = ()=>{
     return(
@@ -6,11 +7,11 @@ export const Portfolio = ()=>{
             <div className="container-fluid">
             <div style={{textAlign:'center'}}>
                     
-                   <span className='homeBadgeParent animate-down'> 
+                   <span className='homeBadgeParent '> 
                     <span className='homeBadge'></span>
                     Featured Work
                     </span>
-                </div>
+            </div>
                 <br/>
                 <h2 className='homeHeader'>Recent Projects</h2>
                 <p className='subtopic'>
@@ -29,7 +30,8 @@ export const Portfolio = ()=>{
 
                            
                         <div>
-                            {project.tool} - {project.department}
+                           <span className="projectTool" style={{color:`${project.colors.accent}`,background:`${project.colors.secondary}`}}>{project.tool} </span>  
+                           <span className="projectDept"style={{color:`${project.colors.text}`,background:`${project.colors.background}`}}>{project.department}</span>
                         </div>
                         <br/>
                         
@@ -40,6 +42,9 @@ export const Portfolio = ()=>{
                     </div>
                     </div>
                 ))}
+            </div>
+            <div style={{textAlign:'center'}}>
+                <FlatButton title="View all projects" className='btn-xl btnSecondary btn'/>
             </div>
             </div>
         </section>

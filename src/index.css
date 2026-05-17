@@ -3,7 +3,7 @@
 :root {
   --electric-blue: #53cbf3;
   --electric-blue-hover: #005bb5;
-  --electric-blue-second: #98def5;
+  --electric-blue-second: rgba(152, 222, 245, 0.8);
   /* Primary Colors */
   --color-navy-dark: #0B1F3B;
   --color-navy: #122C54;
@@ -16,6 +16,9 @@
   --color-gold-muted: #B68A2A;
   --color-gold-dark: #A67C1A;
   --gold: #c08b5c;
+
+  --accent-cyan: #42D4FF;
+  --accent-gold: #F4C542;
 }
 /* Global Reset */
 * {
@@ -77,6 +80,7 @@ p.subtopic, .homeBadgeParent {
   padding: 3px 10px;
   border-radius: 20px;
   color: var(--electric-blue-hover);
+  margin-top: 8px;
  
   
 }
@@ -122,6 +126,16 @@ nav .container-fluid{
 .btnPrimary{
     background-color: var(--color-navy-light);
   
+  color: white;
+}
+.btnSecondary{
+   background-color: var(--electric-blue-hover);
+  
+  color: white;
+}
+.btnSecondary:hover{
+  background-color: var(--electric-blue-hover);
+  background-color: var(--color-navy);
   color: white;
 }
 .btnPrimary:hover{
@@ -402,6 +416,19 @@ background-color: var(--electric-blue-hover);
   border-radius:20px ;
   
  
+}
+
+.projectDept, .projectTool{
+  padding:5px 10px;
+  border-radius: 15px ;
+  margin-right: 5px;
+
+}
+
+/* training trainng traning */
+
+#training .subtopic, #training .homeHeader{
+  text-align: left;
 }
 
 
