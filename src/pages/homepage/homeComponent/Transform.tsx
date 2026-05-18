@@ -2,6 +2,7 @@ import { businessDetails } from "../../../shared/Data"
 import {PhoneOutlined,LinkedinOutlined,TwitterOutlined,GithubOutlined,
         MailOutlined,
         ClockCircleOutlined} from '@ant-design/icons';
+import { NewsLetterForm } from "./NewsLetterForm";
 
 const Styles = {
     detailsContainer:{
@@ -41,10 +42,16 @@ export const Transform = ()=>{
                 <h2 className="homeHeader">
                     Let's Transform Your Data Journey
                 </h2>
-                <p className="subtopic">Ready to unlock the power of your data? Schedule a free consultation to discuss how I can help your organization achieve its goals.</p>
+                <p className="subtopic">
+
+                    Unlock the power of your data. 
+                    Subscribe to our newsletter for tips and insights to help your organization succeed.
+                     
+                </p>
+                
                 <div className="row">
                     <div className="col-md-6">
-
+                        <NewsLetterForm/>
                     </div>
                     <div className="col-md-6">
                             <div style={{display:'flex', flexDirection:'column', gap:'15px'}}>
@@ -93,13 +100,13 @@ export const Transform = ()=>{
                                     <p>Follow my work and stay updated on the latest in data analytics and AI.</p>
                                     <div  style={{display:'flex', flexDirection:"row", gap:"10px"}}>
                                         <a href="/" target="_blank" rel="noopener noreferrer">
-                                            <LinkedinOutlined style={{ fontSize: '20px', background: '#3b5998', color:"white" }} />
+                                            <LinkedinOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: '#0077B5', color:"white" }} />
                                         </a>
                                         <a href="/" target="_blank" rel="noopener noreferrer">
-                                            <TwitterOutlined style={{ fontSize: '20px', background: '#0077B5', color:"white" }} />
+                                            <TwitterOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: '#0077B5', color:"white" }} />
                                         </a>
                                         <a href="/" target="_blank" rel="noopener noreferrer">
-                                            <GithubOutlined style={{ fontSize: '20px', color: '#dc3545' }} />
+                                            <GithubOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: '#0077B5', color:"white" }} />
                                         </a>
                                 </div>
                                 </div>            
