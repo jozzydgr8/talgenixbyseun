@@ -1,3 +1,4 @@
+import { Footer } from "./homeComponent/Footer"
 import { Hero } from "./homeComponent/Hero"
 import { Portfolio } from "./homeComponent/Portfolio"
 import { Services } from "./homeComponent/Services"
@@ -12,6 +13,7 @@ export const Home = ()=>{
         <Portfolio/>
         <TrainingConsulting/>
         <Transform/>
+        <Footer/>
         </>
     )
 }

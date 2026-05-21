@@ -24,7 +24,7 @@ const Styles = {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        fontSize: "18px"
+        fontSize: "20px"
     }
 }
 export const Transform = ()=>{
@@ -108,7 +108,7 @@ export const Transform = ()=>{
                                         <a href="/" target="_blank" rel="noopener noreferrer">
                                             <GithubOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: '#0077B5', color:"white" }} />
                                         </a>
-                                </div>
+                                    </div>
                                 </div>            
 
                             </div>
