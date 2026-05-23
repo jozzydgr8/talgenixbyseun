@@ -43,13 +43,13 @@ export const TrainingConsulting = ()=>{
                                     minWidth: "52px",
                                     height: "52px",
                                     borderRadius: "12px",
-                                    background: "#1a3263",
+                                    backgroundColor: "rgba(184, 134, 11, 0.2)",
                                     display: "flex",
                                     justifyContent: "center",
                                     alignItems: "center"
                                     }}
                                 >
-                                    <CheckOutlined style={{ color: "#42D4FF", fontSize: "18px" }} />
+                                    <CheckOutlined style={{ color: "#E6C76A", fontSize: "18px" }} />
                                 </div>
 
                                 <div>

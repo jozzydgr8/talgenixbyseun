@@ -2,29 +2,14 @@
 
 :root {
   --deep-charcoal: #232329;
+  --dark-charcoal:#141418;
   --burnished-gold: #b8860b;
   --electric-teal: #008080;
   --deep-dark-teal: #006666;
- --transparent-gold: #E6C76A;
+ --light-gold: #E6C76A;
+ --transparent-gold: rgba(184, 134, 11, 0.2);
   --ivory:#fffaf0;
-  --electric-blue: #53cbf3;
-  --electric-blue-hover: #005bb5;
-  --electric-blue-second: rgba(152, 222, 245, 0.8);
-  /* Primary Colors */
-  --color-navy-dark: #0B1F3B;
-  --color-navy: #122C54;
-  --color-navy-light: #1A3A6B;
-  --navy-blue-secondary: #1a3263;
-  --navy-blue:#10213D;
-
-  /* Gold Variants */
-  --color-gold: #D4AF37;
-  --color-gold-muted: #B68A2A;
-  --color-gold-dark: #A67C1A;
-  --gold: #c08b5c;
-
-  --accent-cyan: #42D4FF;
-  --accent-gold: #F4C542;
+ 
 }
 /* Global Reset */
 * {
@@ -34,7 +19,7 @@
 }
 body{
   background: var(--deep-charcoal);
-  color: var(--transparent-gold);
+  color: var(--light-gold);
   font-family: "Catamaran", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -48,6 +33,7 @@ h1{
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
+  color:var(--ivory)
 }
 h2{
   font-weight:900;
@@ -120,7 +106,7 @@ nav .container-fluid{
   border: none;
   margin: 0;
   padding: 0;
-  color: var(--electric-blue);
+  color: var(--burnished-gold);
 }
 .btn{
   text-transform: capitalize;
@@ -136,13 +122,20 @@ nav .container-fluid{
 }
 .btnSecondary{
    background-color: none;
-   border: solid 1px var(--burnished-gold);
-  
+   border: solid 1px var(--light-gold);
+  color: white;
+}
+.btnSuccess:hover{
+  background-color: var(--deep-dark-teal);
+  color: white;
+}
+.btnSuccess{
+  background-color: var(--electric-teal);
   color: white;
 }
 
-.btnPrimary:hover{
-background-color: var(--transparent-gold);
+.btnPrimary:hover, .btnSecondary:hover{
+background-color: var(--light-gold);
   color: white;
 }
 .btn-xl {
@@ -168,7 +161,7 @@ background-color: var(--transparent-gold);
   
 );}
 .heroWrite{
-  color: var(--transparent-gold);
+  color: var(--light-gold);
 }
 .hero-image{
   background: linear-gradient(var(--electric-teal), transparent);
@@ -374,8 +367,8 @@ background-color: var(--transparent-gold);
 
 .icon-style {
   font-size: 32px;
-  background: linear-gradient(135deg, var(--burnished-gold), var(--electric-teal)); /* gradient from dark to light blue */
-  color: white;
+  background: var(--transparent-gold); /* gradient from dark to light blue */
+  color: var(--light-gold);
   padding: 14px;
   border-radius: 10px;
   display: inline-flex; /* ensures icon stays centered if needed */
@@ -383,10 +376,10 @@ background-color: var(--transparent-gold);
   justify-content: center;
 }
 .serviceCard{
-  background-color: black;
+  background-color: var(--dark-charcoal);
   padding: 30px;
   border-radius:20px ;
-  box-shadow: 0 4px 6px -1px var(--transparent-gold);
+  box-shadow: 0 4px 6px -1px var(--light-gold);
  
 }
 /* .horizontal-scroll {
@@ -416,7 +409,7 @@ background-color: var(--transparent-gold);
 }
 
 .portfolioCard{
-  background-color:black;
+  background-color:var(--deep-charcoal);
   border-radius:20px ;
   
  
@@ -437,7 +430,7 @@ background-color: var(--transparent-gold);
 
 /* footer footer footer footer */
 footer{
-  background-color: var(--color-navy-dark);
+  background-color: var(--dark-charcoal);
 }
 
 

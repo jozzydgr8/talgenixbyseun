@@ -19,8 +19,8 @@ const Styles = {
         minWidth: "52px",
         height: "52px",
         borderRadius: "12px",
-        color: "#005bb5",
-        background: "rgba(152, 222, 245, 0.8)",
+        color: "#7FFFD4",
+        background: "rgba(0, 40, 40, 0.88)",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -95,18 +95,18 @@ export const Transform = ()=>{
                                 </div>
 
 
-                                <div style={{backgroundColor:"#005bb5", padding:"30px", borderRadius:"12px"}}>
+                                <div style={{backgroundColor:"#006666", padding:"30px", borderRadius:"12px", color:"#fffaf0"}}>
                                     <h4>Connect with me</h4>
                                     <p>Follow my work and stay updated on the latest in data analytics and AI.</p>
                                     <div  style={{display:'flex', flexDirection:"row", gap:"10px"}}>
                                         <a href="/" target="_blank" rel="noopener noreferrer">
-                                            <LinkedinOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: '#0077B5', color:"white" }} />
+                                            <LinkedinOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: '#008080', color:"white" }} />
                                         </a>
                                         <a href="/" target="_blank" rel="noopener noreferrer">
-                                            <TwitterOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: '#0077B5', color:"white" }} />
+                                            <TwitterOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: '#008080', color:"white" }} />
                                         </a>
                                         <a href="/" target="_blank" rel="noopener noreferrer">
-                                            <GithubOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: '#0077B5', color:"white" }} />
+                                            <GithubOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: '#008080', color:"white" }} />
                                         </a>
                                     </div>
                                 </div>            

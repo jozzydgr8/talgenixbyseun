@@ -111,7 +111,7 @@ export const NewsLetterForm = ()=>{
                                         required />
                                 </Form.Item>
 
-                                <FlatButton className="btn btnPrimary" title="Subscribe" icon={<SendOutlined/>} onClick={formik.handleSubmit}/>
+                                <FlatButton className="btn btnSuccess" title="Subscribe" icon={<SendOutlined/>} onClick={formik.handleSubmit}/>
                             </div>
                         
                     </Form>

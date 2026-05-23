@@ -13,13 +13,13 @@ export const Footer = ()=>{
                         </p>
                         <div  style={{display:'flex', flexDirection:"row", gap:"10px"}}>
                             <a href="/" target="_blank" rel="noopener noreferrer">
-                                <LinkedinOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: '#0077B5', color:"white" }} />
+                                <LinkedinOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: 'rgba(184, 134, 11, 0.2)', color:"#E6C76A" }} />
                             </a>
                             <a href="/" target="_blank" rel="noopener noreferrer">
-                                <TwitterOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: '#0077B5', color:"white" }} />
+                                <TwitterOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: 'rgba(184, 134, 11, 0.2)', color:"#E6C76A" }} />
                             </a>
                             <a href="/" target="_blank" rel="noopener noreferrer">
-                                <GithubOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: '#0077B5', color:"white" }} />
+                                <GithubOutlined style={{ padding:"10px", borderRadius:"12px", fontSize: '30px', background: 'rgba(184, 134, 11, 0.2)', color:"#E6C76A" }} />
                             </a>
                         </div>
                     </div>
