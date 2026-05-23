@@ -1,6 +1,12 @@
 
 
 :root {
+  --deep-charcoal: #232329;
+  --burnished-gold: #b8860b;
+  --electric-teal: #008080;
+  --deep-dark-teal: #006666;
+ --transparent-gold: #E6C76A;
+  --ivory:#fffaf0;
   --electric-blue: #53cbf3;
   --electric-blue-hover: #005bb5;
   --electric-blue-second: rgba(152, 222, 245, 0.8);
@@ -27,8 +33,8 @@
     box-sizing: border-box;
 }
 body{
-  background-color: var(--navy-blue);
-  color: white;
+  color: var(--deep-charcoal);
+  background-color: var(--ivory);
   font-family: "Catamaran", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -67,19 +73,18 @@ p.subtopic, .homeBadgeParent {
     margin-bottom: 15px;
 }
 .home-subheader,.homeHeader{
-  color: var(--electric-blue-hover);
+  color: var(--burnished-gold);
   
 }
 .homeHeader,p.subtopic{
   text-align: center;
 }
 .homeBadgeParent{
-  background-color: var(--electric-blue-second);
-  color: var(--color-navy);
+  background-color: var(--transparent-gold);
+  color: var(--burnished-gold);
   text-transform: capitalize;
-  padding: 3px 10px;
+  padding: 3px 12px;
   border-radius: 20px;
-  color: var(--electric-blue-hover);
   margin-top: 8px;
  
   
@@ -88,7 +93,7 @@ p.subtopic, .homeBadgeParent {
    display: inline-block;
   width: 12px;
   height: 12px;
-  background: var(--electric-blue-hover);
+  background: var(--burnished-gold);
   border-radius: 50%;
   margin-right: 5px;
   vertical-align: middle;
@@ -101,7 +106,7 @@ section > .container-fluid, footer > .container-fluid{
 /* nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav */
 nav{
   text-transform: capitalize;
-  background-color: var(--color-navy-dark);
+ 
   
 }
 nav .container-fluid{
@@ -121,10 +126,10 @@ nav .container-fluid{
    white-space: nowrap;
    margin-right: 10px;
    margin-bottom: 10px;
-   border-radius: 50px;
+   
   } 
 .btnPrimary{
-    background-color: var(--color-navy-light);
+    background-color: var(--deep-dark-teal);
   
   color: white;
 }
@@ -156,18 +161,19 @@ background-color: var(--electric-blue-hover);
   background-repeat: no-repeat;
 }
 #hero .container-fluid{
+  color: var(--ivory);
   height: 100%;
   background: linear-gradient(
   to right,
-  var(--navy-blue),
+  var(--deep-charcoal),
   transparent 500% 
   
 );}
 .heroWrite{
-  color: var(--electric-blue-hover);
+  color: var(--deep-dark-teal);
 }
 .hero-image{
-  background: linear-gradient(var(--electric-blue), transparent);
+  background: linear-gradient(var(--electric-teal), transparent);
     border-bottom: none;
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
@@ -252,8 +258,8 @@ background-color: var(--electric-blue-hover);
 
   background: linear-gradient(
     135deg,
-    var(--electric-blue),
-    #7c3aed
+    var(--electric-teal),
+   var(--burnished-gold)
   );
 
   font-size: 20px;
