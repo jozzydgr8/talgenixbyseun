@@ -88,7 +88,7 @@ p.subtopic, .homeBadgeParent {
 }
 
 section > .container-fluid, footer > .container-fluid{
-  padding:4% 7%;
+  padding:5% 7%;
 }
 /* nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav */
 nav{
@@ -431,6 +431,14 @@ background-color: var(--light-gold);
 /* footer footer footer footer */
 footer{
   background-color: var(--dark-charcoal);
+  color: var(--ivory);
+}
+
+footer a {
+  display: block;
+  color:inherit;
+  text-decoration: none;
+  margin-bottom: 8px;
 }
 
 

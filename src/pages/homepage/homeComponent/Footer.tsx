@@ -1,13 +1,17 @@
 import {PhoneOutlined,LinkedinOutlined,TwitterOutlined,GithubOutlined,
         MailOutlined,
-        ClockCircleOutlined} from '@ant-design/icons';
+        ClockCircleOutlined,
+        ArrowRightOutlined,
+        EnvironmentOutlined} from '@ant-design/icons';
+import { FlatButton } from '../../../shared/FlatButton';
 export const Footer = ()=>{
     return(
         <footer>
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-3">
-                        <h1>Seun Ogunsanya</h1>
+                        <h3>Seun Ogunsanya</h3>
+                        <br/>
                         <p>Transforming businesses through data analytics,
                             AI solutions, and process automation. Let's unlock your data potential together.
                         </p>
@@ -23,7 +27,44 @@ export const Footer = ()=>{
                             </a>
                         </div>
                     </div>
+
+                    <div className="col-md-3">
+                        <h3>Quick Links </h3>
+                        <br/>
+                        <a href="/" target="_blank" rel="noopener noreferrer">Home</a>
+                        <a href="/" target="_blank" rel="noopener noreferrer">About</a>
+                        <a href="/#services" target="_blank" rel="noopener noreferrer">Services</a>
+                        <a href="/#portfolio" target="_blank" rel="noopener noreferrer">portfolio</a>
+                    </div>
+
+
+                    
+                    <div className="col-md-3">
+                        <h3>Services</h3>
+                        <br/>
+                        <p>Data Analytics</p>
+                        <p>AI Solutions</p>
+                        <p>Process Automation</p>
+                        <p>Corporate Training</p>
+                    </div>
+
+
+                    <div className="col-md-3">
+                        <h3>Get In Touch</h3>
+                        <br/>
+                        <p><PhoneOutlined style={{fontSize:"20px", color:"#008080", paddingRight:"10px"}} />  +1 (123) 456-7890</p>
+                        <p><MailOutlined style={{fontSize:"20px", color:"#008080", paddingRight:"10px"}} />  info@seunogunsanya.com</p>
+                        <p><EnvironmentOutlined style={{fontSize:"20px", color:"#008080", paddingRight:"10px"}}/>  Africa / Remote worldwide</p>
+                        <FlatButton title="Contact Us" className="btn btnSuccess btn-lg" icon={<ArrowRightOutlined/>}/>
+                    </div>
                 </div>
+                <hr/>
+                <p>Copyright © {new Date().getFullYear()} Seun Ogunsanya. All rights reserved.</p>
+                <small>
+                    <a href="https://jozzycodes.com" target="_blank" rel="noopener noreferrer" style={{ color: "#008080" }}>
+                    Website created by jozzycodes
+                </a>
+                </small>
             </div>
         </footer>
     )

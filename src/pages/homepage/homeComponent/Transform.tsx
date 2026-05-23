@@ -50,10 +50,10 @@ export const Transform = ()=>{
                 </p>
                 
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 animate-up">
                         <NewsLetterForm/>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 animate-up">
                             <div style={{display:'flex', flexDirection:'column', gap:'15px'}}>
                                 <div>
                                     {businessDetails.map((detail, index) => (
@@ -95,7 +95,7 @@ export const Transform = ()=>{
                                 </div>
 
 
-                                <div style={{backgroundColor:"#006666", padding:"30px", borderRadius:"12px", color:"#fffaf0"}}>
+                                <div style={{backgroundColor:"#006666", padding:"30px", borderRadius:"12px", color:"#fffaf0"}} className='animate-up'>
                                     <h4>Connect with me</h4>
                                     <p>Follow my work and stay updated on the latest in data analytics and AI.</p>
                                     <div  style={{display:'flex', flexDirection:"row", gap:"10px"}}>

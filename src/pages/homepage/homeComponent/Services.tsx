@@ -4,7 +4,7 @@ import {RightOutlined} from '@ant-design/icons'
 import { Badge } from 'antd';
 export const Services = ()=>{
     return(
-        <section>
+        <section id='services'>
             <div className="container-fluid">
                 <div style={{textAlign:'center'}}>
                     
