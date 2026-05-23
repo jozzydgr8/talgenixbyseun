@@ -33,8 +33,8 @@
     box-sizing: border-box;
 }
 body{
-  color: var(--deep-charcoal);
-  background-color: var(--ivory);
+  background: var(--deep-charcoal);
+  color: var(--transparent-gold);
   font-family: "Catamaran", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -64,6 +64,7 @@ h2, h3, h4, h5, h6{
   font-optical-sizing: auto;
 
   font-style: normal;
+  color:var(--ivory);
 }
 /* Subtopic paragraph styling */
 p.subtopic, .homeBadgeParent {
@@ -72,10 +73,10 @@ p.subtopic, .homeBadgeParent {
     margin-top: 10px;
     margin-bottom: 15px;
 }
-.home-subheader,.homeHeader{
+/* .home-subheader{
   color: var(--burnished-gold);
   
-}
+} */
 .homeHeader,p.subtopic{
   text-align: center;
 }
@@ -129,22 +130,19 @@ nav .container-fluid{
    
   } 
 .btnPrimary{
-    background-color: var(--deep-dark-teal);
+    background-color: var(--burnished-gold);
   
   color: white;
 }
 .btnSecondary{
-   background-color: var(--electric-blue-hover);
+   background-color: none;
+   border: solid 1px var(--burnished-gold);
   
   color: white;
 }
-.btnSecondary:hover{
-  background-color: var(--electric-blue-hover);
-  background-color: var(--color-navy);
-  color: white;
-}
+
 .btnPrimary:hover{
-background-color: var(--electric-blue-hover);
+background-color: var(--transparent-gold);
   color: white;
 }
 .btn-xl {
@@ -170,7 +168,7 @@ background-color: var(--electric-blue-hover);
   
 );}
 .heroWrite{
-  color: var(--deep-dark-teal);
+  color: var(--transparent-gold);
 }
 .hero-image{
   background: linear-gradient(var(--electric-teal), transparent);
@@ -376,7 +374,7 @@ background-color: var(--electric-blue-hover);
 
 .icon-style {
   font-size: 32px;
-  background: linear-gradient(135deg, #1890ff, #69c0ff); /* gradient from dark to light blue */
+  background: linear-gradient(135deg, var(--burnished-gold), var(--electric-teal)); /* gradient from dark to light blue */
   color: white;
   padding: 14px;
   border-radius: 10px;
@@ -385,10 +383,10 @@ background-color: var(--electric-blue-hover);
   justify-content: center;
 }
 .serviceCard{
-  background-color: var(--color-navy-dark);
+  background-color: black;
   padding: 30px;
   border-radius:20px ;
-  box-shadow: 0 4px 6px -1px var(--electric-blue);
+  box-shadow: 0 4px 6px -1px var(--transparent-gold);
  
 }
 /* .horizontal-scroll {
@@ -414,11 +412,11 @@ background-color: var(--electric-blue-hover);
 
 /* portfolio portfolio=section portfolio */
 #portfolio{
-  background-color: var(--color-navy-light);
+  background-color: var(--dark-charcoal);
 }
 
 .portfolioCard{
-  background-color: var(--color-navy);
+  background-color:black;
   border-radius:20px ;
   
  

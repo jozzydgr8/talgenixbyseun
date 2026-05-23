@@ -8,7 +8,7 @@ export const Navbar = () => {
  
 
   return (
-    <nav className="navbar navbar-light bg-light navbar-expand-lg" data-bs-theme='light'>
+    <nav className="navbar  navbar-expand-lg" data-bs-theme='dark'>
       <div className="container-fluid">
         <h1 className='navbar-brand'>Seun Ogunsanya</h1>
 
