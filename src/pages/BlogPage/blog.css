@@ -1,0 +1,33 @@
+
+:root {
+  --deep-charcoal: #232329;
+  --dark-charcoal:#141418;
+  --burnished-gold: #b8860b;
+  --electric-teal: #008080;
+  --transparent-electric-teal: rgba(0, 128, 128, 0.2);
+  --deep-dark-teal: #006666;
+ --light-gold: #E6C76A;
+ --transparent-gold: rgba(184, 134, 11, 0.2);
+  --ivory:#fffaf0;
+ 
+}
+
+#blogHero small{
+    color:gray;
+}
+.blogHeroGrade{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.blogHeroGrade .icon-style{
+ font-size: 28px;
+  background: var(--transparent-electric-teal); /* gradient from dark to light blue */
+  color: var(--electric-teal);
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-flex; /* ensures icon stays centered if needed */
+  align-items: center;
+  justify-content: center;
+}

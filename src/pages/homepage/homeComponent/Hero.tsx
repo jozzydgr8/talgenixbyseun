@@ -40,7 +40,7 @@ export const Hero = ()=>{
                         </p>
 
                         <div className="row align-items-center">
-                        <div className="col-md-4">
+                        <div className="col-md-5">
                             <FlatButton title="Get In Touch" className=" btn btnPrimary btn-xl"/>
                         </div>
                         <div className="col-md-6">
