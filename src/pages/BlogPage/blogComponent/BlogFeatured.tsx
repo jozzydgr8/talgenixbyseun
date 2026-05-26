@@ -2,6 +2,7 @@ import {blogPosts} from '../../../shared/Data';
 import { FlatButton } from '../../../shared/FlatButton';
 import {Blog} from '../../../types';
 import { RightOutlined } from '@ant-design/icons';
+import { FormatDate } from '../../../shared/FormatDate';
 
 const featuredBlog: Blog | undefined =
   blogPosts.find((blog) => blog.featured) ||
@@ -12,7 +13,7 @@ const featuredBlog: Blog | undefined =
   )[0];
 export const BlogFeatured = ()=>{
     return(
-        <section>
+        <section id='blogFeatured'>
             <div className="container-fluid">
                 <h2 className="text-center">Featured Article</h2>
                
@@ -26,7 +27,19 @@ export const BlogFeatured = ()=>{
                                 <small className='blogTag'>{featuredBlog.category}</small>
                                 
                                 <h3>{featuredBlog.title}</h3>
+                                <br/>
                                 <p>{featuredBlog.excerpt}</p>
+                                <div style={{display:'flex', alignItems:'center',gap:'15px', marginBottom:'20px', flexWrap:'wrap'  }}>
+                                    <div >
+                                        <div style={{background: 'var(--transparent-gold)', color: 'var(--light-gold)', padding: '10px 15px', borderRadius: '80%', display: 'inline-block', fontWeight:'bold', fontSize:'large'}}>so</div>
+                                    </div>
+                                    <div>
+                                        <h6 style={{margin: 0}}>Seun Ogunsanya</h6>
+                                        <small style={{color:'gray'}}>{featuredBlog.readingTime} | {FormatDate({ createdAt: featuredBlog.createdAt })}</small>    
+                                    </div>
+
+
+                                </div>
                                 <div>
                                     <FlatButton title='read full article' className='btn borderlessbtn' icon={<RightOutlined/>}/>
                                 </div>
