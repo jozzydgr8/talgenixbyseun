@@ -28,9 +28,9 @@ export const Navbar = () => {
           <ul className="navbar-nav ms-auto">
 
             <li className="nav-item">
-              <a href={`/`} className="nav-link active">
+              <NavLink to={`/`} className="nav-link active">
                    Home
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
               <a href={`/#services`} className="nav-link active">

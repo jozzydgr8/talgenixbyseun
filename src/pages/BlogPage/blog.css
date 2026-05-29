@@ -76,4 +76,11 @@
     padding: 10px;
   }
 }
+/* --bloglist--bloglist--bloglist */
+.blogListCard{
+  background-color:var(--dark-charcoal);
+  border-radius:20px ;
+  
+ 
+}
 
