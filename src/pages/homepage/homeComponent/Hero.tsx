@@ -26,93 +26,42 @@ export const Hero = ()=>{
     return(
         <section id="hero">
             <div className="container-fluid">
-                <div className="row align-items-center justify-content-center">
-                    <div className='col-md-6'>
-                        <h1 className="heroBadge">Transforming Data into </h1>
-                        <h3 className="heroWrite">
-                            Actionable Insights
-                        </h3>
-                        <br/>
-                        <div className="heroBottom">
+                <div className="text-center">
+                    <h1 className="heroBadge">Transforming Data into </h1>
+                    <h1 className="heroWrite">
+                        Actionable Insights
+                    </h1>
+                    <br/>
+                    <div className="heroBottom">
                         <p>
-                            Help businesses harness the power of data anlytics, business intelligence, data visualization, and AI to make informed decisions, automate processes
-                            , and accelerate digital transformation..  
+                             Transforming businesses through the strategic application of data analytics, business intelligence, artificial intelligence, and intelligent automation. We bridge the gap between technology and business outcomes, helping organizations gain deeper insights,
+                              improve efficiency, and confidently navigate their digital transformation journey.
                         </p>
 
-                        <div className="row align-items-center">
-                        <div className="col-md-5">
-                            <FlatButton title="Get In Touch" className=" btn btnPrimary btn-xl"/>
-                        </div>
-                        <div className="col-md-6">
-                            <div  style={{display:'flex', flexDirection:"row", gap:"10px"}}>
-                                <a href="/" target="_blank" rel="noopener noreferrer">
-                                    <FacebookFilled style={{ fontSize: '40px', color: '#3b5998' }} />
-                                </a>
-                                <a href="/" target="_blank" rel="noopener noreferrer">
-                                    <LinkedinFilled style={{ fontSize: '40px', color: '#0077B5' }} />
-                                </a>
-                                <a href="/" target="_blank" rel="noopener noreferrer">
-                                    <InstagramFilled style={{ fontSize: '40px', color: '#dc3545' }} />
-                                </a>
-                            </div>
-                            
-
-                        </div>
+                        <FlatButton title="Get In Touch" className=" btn btnPrimary btn-xl"/>
                         <hr/>
                             <div className="hero-accolades">
                                 <div>
-                                    <h3>50+</h3>
+                                    <h3 style={{color:'var(--burnished-gold)'}}>50+</h3>
                                     <small>Projects Delivered</small>
                                 </div>
                                 <div>
-                                    <h3>30+</h3>
+                                    <h3 style={{color:'var(--burnished-gold)'}}>30+</h3>
                                     <small>Happy Clients</small>
                                 </div>
                                 <div>
-                                    <h3>10+</h3>
+                                    <h3 style={{color:'var(--burnished-gold)'}}>10+</h3>
                                     <small>Awards Won</small>
                                 </div>
                                 <div>
-                                    <h3>100%</h3>
+                                    <h3 style={{color:'var(--burnished-gold)'}}>100%</h3>
                                     <small>Client Satisfaction</small>
                                 </div>
                             </div>
-                        
-                        </div>
-                        </div>
                     </div>
-                    <div className="col-md-6 text-center heroImageWrapper">
 
-                        {/* Floater 1 */}
-                        <div className="heroFloater floaterOne">
-                            <div className="floaterIcon"><LineChartOutlined/></div>
-                            <div>
-                                <strong>+240%</strong>
-                                <small>Growth Rate</small>
-                            </div>
-                        </div>
-
-                        {/* Floater 2 */}
-                        <div className="heroFloater floaterTwo">
-                            <div className="floaterIcon"><RobotOutlined/></div>
-                            <div>
-                                <strong>AI Solutions</strong>
-                                <small>24/7 Analytics</small>
-                            </div>
-                        </div>
-
-                        {/* Floater 3 */}
-                        <div className="heroFloater floaterThree">
-                            <div className="floaterIcon"><TeamOutlined/></div>
-                            <div>
-                                <strong>30+ Clients</strong>
-                                <small>Worldwide</small>
-                            </div>
-                        </div>
-
-                        <img className='hero-image' src={heroImage} alt="" />
-                    </div>
                 </div>
+                
                 
             </div>
         </section>

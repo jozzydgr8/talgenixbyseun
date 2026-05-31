@@ -84,3 +84,13 @@
  
 }
 
+
+/* --author--author-about--author */
+.authorTag {
+  display: inline-block;
+  color: var(--light-gold);
+  background-color: var(--transparent-gold);
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}

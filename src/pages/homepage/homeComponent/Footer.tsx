@@ -12,8 +12,10 @@ export const Footer = ()=>{
                     <div className="col-md-3">
                         <h3>Seun Ogunsanya</h3>
                         <br/>
-                        <p>Transforming businesses through data analytics,
-                            AI solutions, and process automation. Let's unlock your data potential together.
+                        <p>
+                            Help businesses harness the power of data anlytics, business intelligence, data visualization, and AI to make informed decisions, automate processes
+                            , and accelerate digital transformation..  
+                
                         </p>
                         <div  style={{display:'flex', flexDirection:"row", gap:"10px"}}>
                             <a href="/" target="_blank" rel="noopener noreferrer">

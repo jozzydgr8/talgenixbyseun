@@ -34,7 +34,10 @@ h1{
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
-  color:var(--ivory)
+  color:var(--ivory);
+  font-size: clamp(3rem, 5vw, 5.5rem);
+  line-height: 1;
+
 }
 h2{
   font-weight:900;
@@ -157,9 +160,9 @@ background-color: var(--light-gold);
   color: var(--ivory);
   height: 100%;
   background: linear-gradient(
-  to right,
+  to bottom,
   var(--deep-charcoal),
-  transparent 500% 
+  transparent 200% 
   
 );}
 .heroWrite{
@@ -181,6 +184,7 @@ background-color: var(--light-gold);
   display:flex;
   align-items: center;
   justify-content: space-between;
+  
 
 }
 .hero-accolades small{

@@ -188,58 +188,177 @@ export const trainingFeatures = [
 
 
 export const blogPosts = [
+  // DATA ANALYTICS
   {
-    "title": "How Modern Data Analytics Is Transforming Business Growth",
-    "featuredImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
-    "category": "Data Analytics",
-    "excerpt": "Businesses leveraging advanced analytics are uncovering hidden opportunities, improving operational efficiency, and making smarter strategic decisions faster than ever before.",
-    "featured": false,
-    "readingTime": "6 min read",
-    "createdAt": "2026-05-26T09:00:00Z"
+    title: "How Modern Data Analytics Is Transforming Business Growth",
+    featuredImage: dataAnalytics,
+    category: "Data Analytics",
+    excerpt: "Businesses leveraging advanced analytics are uncovering hidden opportunities, improving operational efficiency, and making smarter strategic decisions faster than ever before.",
+    featured: false,
+    readingTime: "6 min read",
+    createdAt: "2026-05-26T09:00:00Z"
   },
   {
-    "title": "How AI Intelligence Is Reshaping Enterprise Decision-Making in 2026",
-    "featuredImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
-    "category": "AI intelligence",
-    "excerpt": "Organizations embedding AI into strategic workflows are outperforming competitors through predictive insights, automation, and intelligent decision support systems.",
-    "featured": false,
-    "readingTime": "8 min read",
-    "createdAt": "2026-05-26T10:00:00Z"
+    title: "5 Data Analytics Trends Driving Business Performance in 2026",
+    featuredImage: dataAnalytics,
+    category: "Data Analytics",
+    excerpt: "From predictive modeling to real-time reporting, modern analytics trends are helping organizations stay competitive and agile.",
+    featured: false,
+    readingTime: "7 min read",
+    createdAt: "2026-05-27T09:00:00Z"
   },
   {
-    "title": "Why Process Automation Has Become a Competitive Necessity",
-    "featuredImage": businessIntelligence,
-    "category": "Process Automation",
-    "excerpt": "From finance to customer support, companies are automating repetitive workflows to reduce costs, eliminate bottlenecks, and improve overall productivity.",
-    "featured": false,
-    "readingTime": "5 min read",
-    "createdAt": "2026-05-26T11:00:00Z"
+    title: "How Predictive Analytics Helps Organizations Reduce Risk",
+    featuredImage: dataAnalytics,
+    category: "Data Analytics",
+    excerpt: "Predictive analytics enables businesses to anticipate market shifts, optimize resources, and proactively address operational challenges.",
+    featured: false,
+    readingTime: "5 min read",
+    createdAt: "2026-05-28T09:00:00Z"
+  },
+
+  // AI SOLUTIONS
+  {
+    title: "How AI Intelligence Is Reshaping Enterprise Decision-Making in 2026",
+    featuredImage: aiSolutions,
+    category: "AI Solutions",
+    excerpt: "Organizations embedding AI into strategic workflows are outperforming competitors through predictive insights and intelligent automation.",
+    featured: false,
+    readingTime: "8 min read",
+    createdAt: "2026-05-26T10:00:00Z"
   },
   {
-    "title": "Business Intelligence Strategies Every Executive Should Know",
-    "featuredImage": businessIntelligence,
-    "category": "business intelligence",
-    "excerpt": "Modern BI platforms are helping leadership teams visualize performance metrics in real time and make faster, more informed operational decisions.",
-    "featured": false,
-    "readingTime": "7 min read",
-    "createdAt": "2026-05-26T12:00:00Z"
+    title: "Practical AI Applications Delivering Immediate Business Value",
+    featuredImage: aiSolutions,
+    category: "AI Solutions",
+    excerpt: "AI is transforming customer service, forecasting, and operations by helping organizations make faster and smarter decisions.",
+    featured: false,
+    readingTime: "6 min read",
+    createdAt: "2026-05-27T10:00:00Z"
   },
   {
-    "title": "Digital Transformation Beyond Technology: Building Adaptive Enterprises",
-    "featuredImage": businessIntelligence,
-    "category": "digital transformation",
-    "excerpt": "Successful digital transformation requires more than software adoption — it demands cultural change, agile leadership, and a long-term innovation mindset.",
-    "featured": false,
-    "readingTime": "9 min read",
-    "createdAt": "2026-05-26T13:00:00Z"
+    title: "Building an AI-Ready Organization for Sustainable Growth",
+    featuredImage: aiSolutions,
+    category: "AI Solutions",
+    excerpt: "Successful AI adoption requires strong data foundations, governance frameworks, and workforce readiness.",
+    featured: false,
+    readingTime: "9 min read",
+    createdAt: "2026-05-28T10:00:00Z"
+  },
+
+  // PROCESS AUTOMATION
+  {
+    title: "Why Process Automation Has Become a Competitive Necessity",
+    featuredImage: automationImage,
+    category: "Process Automation",
+    excerpt: "Companies are automating repetitive workflows to reduce costs, eliminate bottlenecks, and improve overall productivity.",
+    featured: false,
+    readingTime: "5 min read",
+    createdAt: "2026-05-26T11:00:00Z"
   },
   {
-    "title": "Why Corporate Training Is Critical for Future-Ready Organizations",
-    "featuredImage": corporateTraining,
-    "category": "Corporate Training",
-    "excerpt": "Organizations investing in continuous workforce development are creating stronger teams, improving retention, and staying ahead in rapidly evolving industries.",
-    "featured": false,
-    "readingTime": "4 min read",
-    "createdAt": "2026-05-26T14:00:00Z"
+    title: "Workflow Automation Strategies for Growing Businesses",
+    featuredImage: automationImage,
+    category: "Process Automation",
+    excerpt: "Smart workflow automation helps organizations increase efficiency while reducing operational complexity.",
+    featured: false,
+    readingTime: "6 min read",
+    createdAt: "2026-05-27T11:00:00Z"
+  },
+  {
+    title: "How Intelligent Automation Improves Operational Efficiency",
+    featuredImage: automationImage,
+    category: "Process Automation",
+    excerpt: "Combining automation and AI enables businesses to streamline processes and improve service delivery.",
+    featured: false,
+    readingTime: "7 min read",
+    createdAt: "2026-05-28T11:00:00Z"
+  },
+
+  // BUSINESS INTELLIGENCE
+  {
+    title: "Business Intelligence Strategies Every Executive Should Know",
+    featuredImage: businessIntelligence,
+    category: "Business Intelligence",
+    excerpt: "Modern BI platforms help leadership teams visualize performance metrics and make informed operational decisions.",
+    featured: false,
+    readingTime: "7 min read",
+    createdAt: "2026-05-26T12:00:00Z"
+  },
+  {
+    title: "Creating Executive Dashboards That Drive Better Decisions",
+    featuredImage: businessIntelligence,
+    category: "Business Intelligence",
+    excerpt: "Effective dashboards transform raw data into actionable insights that support strategic decision-making.",
+    featured: false,
+    readingTime: "6 min read",
+    createdAt: "2026-05-27T12:00:00Z"
+  },
+  {
+    title: "The Evolution of Business Intelligence in the Age of AI",
+    featuredImage: businessIntelligence,
+    category: "Business Intelligence",
+    excerpt: "AI-powered BI tools are helping organizations uncover deeper insights and accelerate reporting processes.",
+    featured: false,
+    readingTime: "8 min read",
+    createdAt: "2026-05-28T12:00:00Z"
+  },
+
+  // DIGITAL TRANSFORMATION
+  {
+    title: "Digital Transformation Beyond Technology: Building Adaptive Enterprises",
+    featuredImage: businessIntelligence,
+    category: "Digital Transformation",
+    excerpt: "Successful digital transformation requires cultural change, agile leadership, and a long-term innovation mindset.",
+    featured: false,
+    readingTime: "9 min read",
+    createdAt: "2026-05-26T13:00:00Z"
+  },
+  {
+    title: "Leading Successful Digital Transformation Initiatives",
+    featuredImage: businessIntelligence,
+    category: "Digital Transformation",
+    excerpt: "Organizations that align technology investments with business objectives achieve stronger transformation outcomes.",
+    featured: false,
+    readingTime: "8 min read",
+    createdAt: "2026-05-27T13:00:00Z"
+  },
+  {
+    title: "Overcoming Resistance to Change During Digital Transformation",
+    featuredImage: businessIntelligence,
+    category: "Digital Transformation",
+    excerpt: "People and processes remain the most important factors in achieving lasting transformation success.",
+    featured: false,
+    readingTime: "7 min read",
+    createdAt: "2026-05-28T13:00:00Z"
+  },
+
+  // CORPORATE TRAINING
+  {
+    title: "Why Corporate Training Is Critical for Future-Ready Organizations",
+    featuredImage: corporateTraining,
+    category: "Corporate Training",
+    excerpt: "Organizations investing in workforce development are creating stronger teams and improving retention.",
+    featured: false,
+    readingTime: "4 min read",
+    createdAt: "2026-05-26T14:00:00Z"
+  },
+  {
+    title: "Building High-Performance Teams Through Continuous Learning",
+    featuredImage: corporateTraining,
+    category: "Corporate Training",
+    excerpt: "Continuous learning programs empower employees to adapt quickly and contribute greater value.",
+    featured: false,
+    readingTime: "5 min read",
+    createdAt: "2026-05-27T14:00:00Z"
+  },
+  {
+    title: "Why Data Literacy Training Matters in Modern Organizations",
+    featuredImage: corporateTraining,
+    category: "Corporate Training",
+    excerpt: "Data-literate teams make better decisions, communicate insights effectively, and drive innovation.",
+    featured: false,
+    readingTime: "6 min read",
+    createdAt: "2026-05-28T14:00:00Z"
   }
-]
+];
