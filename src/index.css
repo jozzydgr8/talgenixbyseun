@@ -20,7 +20,7 @@
 }
 body{
   background: var(--ivory);
-  color: var(--light-gold);
+  color: var(--burnished-gold);
   font-family: "Catamaran", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -140,7 +140,7 @@ nav .container-fluid{
 }
 
 .btnPrimary:hover, .btnSecondary:hover{
-background-color: var(--light-gold);
+background-color: var(--burnished-gold);
   color: white;
 }
 .btn-xl {
@@ -373,8 +373,8 @@ background-color: var(--light-gold);
 
 .icon-style {
   font-size: 32px;
-  background: var(--transparent-gold); /* gradient from dark to light blue */
-  color: var(--light-gold);
+  background: var(--burnished-gold); /* gradient from dark to light blue */
+  color: white;
   padding: 14px;
   border-radius: 10px;
   display: inline-flex; /* ensures icon stays centered if needed */
@@ -382,10 +382,10 @@ background-color: var(--light-gold);
   justify-content: center;
 }
 .serviceCard{
-  background-color: var(--deep-dark-teal);
+  background-color: white;
   padding: 30px;
   border-radius:20px ;
-  box-shadow: 0 4px 6px -1px var(--light-gold);
+  box-shadow: 0 4px 6px -1px var(--burnished-gold);
  
 }
 /* .horizontal-scroll {
@@ -413,9 +413,16 @@ background-color: var(--light-gold);
 #portfolio{
   background-color: var(--dark-charcoal);
 }
+ #portfolio h3{
+  color:var(--burnished-gold);
+}
+#portfolio h2{
+  color:white
+}
 
 .portfolioCard{
-  background-color:var(--deep-dark-teal);
+  background-color:var(--transparent-gold);
+  color:white;
   border-radius:20px ;
   
  
@@ -440,11 +447,16 @@ footer{
   color: var(--ivory);
 }
 
+
 footer a {
   display: block;
   color:inherit;
   text-decoration: none;
   margin-bottom: 8px;
+}
+
+footer h3{
+  color:var(--burnished-gold)
 }
 
 

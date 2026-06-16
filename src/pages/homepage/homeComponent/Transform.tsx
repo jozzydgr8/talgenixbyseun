@@ -96,7 +96,7 @@ export const Transform = ()=>{
 
 
                                 <div style={{backgroundColor:"#006666", padding:"30px", borderRadius:"12px", color:"#fffaf0"}} className='animate-up'>
-                                    <h4>Connect with me</h4>
+                                    <h4 style={{color:"white"}}>Connect with me</h4>
                                     <p>Follow my work and stay updated on the latest in data analytics and AI.</p>
                                     <div  style={{display:'flex', flexDirection:"row", gap:"10px"}}>
                                         <a href="/" target="_blank" rel="noopener noreferrer">
