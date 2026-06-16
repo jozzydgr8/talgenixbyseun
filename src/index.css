@@ -1,0 +1,696 @@
+
+
+:root {
+  --deep-charcoal: #232329;
+  --dark-charcoal:#141418;
+  --burnished-gold: #b8860b;
+  --electric-teal: #008080;
+  --deep-dark-teal: #006666;
+  --transparent-electric-teal: rgba(0, 128, 128, 0.2);
+ --light-gold: #E6C76A;
+ --transparent-gold: rgba(184, 134, 11, 0.2);
+  --ivory:#fffaf0;
+ 
+}
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background: var(--ivory);
+  color: var(--light-gold);
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+   overflow-x: hidden;
+   margin: 0;
+   padding: 0;
+}
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  color:var(--ivory);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1;
+
+}
+h2{
+  font-weight:900;
+  text-transform: capitalize;
+}
+
+
+h4, h5, h6{
+  font-weight:300;
+}
+/*  */
+h2, h3, h4, h5, h6{
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  color:var(--dark-charcoal);
+}
+
+/* Subtopic paragraph styling */
+p.subtopic, .homeBadgeParent {
+    font-size: 20px; /* bigger than body text */
+    font-weight: 500; /* slightly bolder, optional */
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+/* .home-subheader{
+  color: var(--burnished-gold);
+  
+} */
+.homeHeader,p.subtopic{
+  text-align: center;
+}
+.homeBadgeParent{
+  background-color: var(--transparent-gold);
+  color: var(--burnished-gold);
+  text-transform: capitalize;
+  padding: 3px 12px;
+  border-radius: 20px;
+  margin-top: 8px;
+ 
+  
+}
+.homeBadge{
+   display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: var(--burnished-gold);
+  border-radius: 50%;
+  margin-right: 5px;
+  vertical-align: middle;
+  
+}
+
+section > .container-fluid, footer > .container-fluid{
+  padding:5% 7%;
+}
+/* nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav */
+nav{
+  text-transform: capitalize;
+ 
+  
+}
+nav .container-fluid{
+  padding:1% 7% ;
+}
+
+/* button button button button */
+.borderlessbtn{
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: var(--burnished-gold);
+}
+.btn{
+  text-transform: capitalize;
+   white-space: nowrap;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   
+  } 
+.btnPrimary{
+    background-color: var(--burnished-gold);
+  
+  color: white;
+}
+.btnSecondary{
+   background-color: none;
+   border: solid 1px var(--light-gold);
+  color: white;
+}
+.btnSuccess:hover{
+  background-color: var(--deep-dark-teal);
+  color: white;
+}
+.btnSuccess{
+  background-color: var(--electric-teal);
+  color: white;
+}
+
+.btnPrimary:hover, .btnSecondary:hover{
+background-color: var(--light-gold);
+  color: white;
+}
+.btn-xl {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+/* hero-section-hero-sectio */
+#hero{
+  background-image: url('./assets/dataAnalysisImage.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#hero .container-fluid{
+  color: var(--ivory);
+  height: 100%;
+  background: linear-gradient(
+  to bottom,
+  var(--deep-charcoal),
+  transparent 200% 
+  
+);}
+.heroWrite{
+  color: var(--light-gold);
+}
+.hero-image{
+  background: linear-gradient(var(--electric-teal), transparent);
+    border-bottom: none;
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    padding: 3% 1%;
+}
+@media (max-width: 600px) {
+.hero-image{
+    width: 80%;
+}
+}
+.hero-accolades{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  
+
+}
+.hero-accolades small{
+  color:rgb(196, 196, 196)
+}
+
+/* =========================
+   HERO IMAGE WRAPPER
+========================= */
+
+.heroImageWrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* =========================
+   FLOATERS
+========================= */
+
+.heroFloater{
+  position: absolute;
+  z-index: 5;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 14px 18px;
+
+  min-width: 180px;
+
+  background: rgba(255,255,255,0.08);
+
+  border: 1px solid rgba(255,255,255,0.12);
+
+  backdrop-filter: blur(14px);
+
+  border-radius: 18px;
+
+  box-shadow:
+    0 8px 32px rgba(0,0,0,0.18);
+
+  color: white;
+
+  animation: floating 6s ease-in-out infinite;
+}
+
+.heroFloater strong{
+  display: block;
+  font-size: 16px;
+}
+
+.heroFloater small{
+  color: rgba(255,255,255,0.7);
+}
+
+.floaterIcon{
+  width: 45px;
+  height: 45px;
+
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(
+    135deg,
+    var(--electric-teal),
+   var(--burnished-gold)
+  );
+
+  font-size: 20px;
+}
+
+/* =========================
+   FLOATER POSITIONS
+========================= */
+
+.floaterOne{
+  top: 12%;
+  left: -2%;
+}
+
+.floaterTwo{
+  top: 45%;
+  right: -5%;
+  animation-delay: 2s;
+}
+
+.floaterThree{
+  bottom: 8%;
+  left: 5%;
+  animation-delay: 4s;
+}
+
+/* =========================
+   FLOAT ANIMATION
+========================= */
+
+@keyframes floating{
+  0%{
+    transform: translateY(0px);
+  }
+
+  50%{
+  transform: translateY(-6px);
+}
+
+  100%{
+    transform: translateY(0px);
+  }
+}
+.heroImageWrapper::before{
+  content: '';
+
+  position: absolute;
+
+  width: 350px;
+  height: 350px;
+
+  background: var(--electric-blue);
+
+  filter: blur(120px);
+
+  opacity: 0.25;
+
+  z-index: 0;
+
+  top: 15%;
+}
+@media (max-width: 768px){
+
+  .heroImageWrapper{
+    overflow: hidden;
+  }
+
+  .heroFloater{
+    min-width: 140px;
+    padding: 10px 14px;
+  }
+
+  .heroFloater strong{
+    font-size: 14px;
+  }
+
+  .heroFloater small{
+    font-size: 11px;
+  }
+
+  .floaterIcon{
+    width: 38px;
+    height: 38px;
+    font-size: 18px;
+  }
+
+  /* Position fixes */
+
+  .floaterOne{
+    top: 8%;
+    left: 2%;
+    transform: scale(0.9);
+  }
+
+  .floaterTwo{
+    top: 50%;
+    right: 3%;
+    transform: scale(0.9);
+  }
+
+  .floaterThree{
+    bottom: 5%;
+    left: 8%;
+    transform: scale(0.85);
+  }
+
+  .hero-image{
+    width: 90%;
+  }
+}
+
+/* service-section srvivcesection service services */
+
+
+.icon-style {
+  font-size: 32px;
+  background: var(--transparent-gold); /* gradient from dark to light blue */
+  color: var(--light-gold);
+  padding: 14px;
+  border-radius: 10px;
+  display: inline-flex; /* ensures icon stays centered if needed */
+  align-items: center;
+  justify-content: center;
+}
+.serviceCard{
+  background-color: var(--deep-dark-teal);
+  padding: 30px;
+  border-radius:20px ;
+  box-shadow: 0 4px 6px -1px var(--light-gold);
+ 
+}
+/* .horizontal-scroll {
+  display: flex;                arrange items horizontally 
+  gap: 20px;                    spacing between cards 
+  overflow-x: auto;             enable horizontal scroll 
+  padding: 12px;
+  scroll-behavior: smooth;      smooth scrolling 
+  scrollbar-width: thin;        optional styling for Firefox 
+} */
+
+/* Hide scrollbar on Webkit browsers */
+/* .horizontal-scroll::-webkit-scrollbar {
+  display: none;
+} */
+
+/* .service-wrapper {
+  flex: 0 0 300px;              width of each card, don't shrink 
+  display: flex;                 keep the card inside flexible 
+  flex-direction: column;
+} */
+
+
+/* portfolio portfolio=section portfolio */
+#portfolio{
+  background-color: var(--dark-charcoal);
+}
+
+.portfolioCard{
+  background-color:var(--deep-dark-teal);
+  border-radius:20px ;
+  
+ 
+}
+
+.projectDept, .projectTool{
+  padding:5px 10px;
+  border-radius: 15px ;
+  margin-right: 5px;
+
+}
+
+/* training trainng traning */
+
+#training .subtopic, #training .homeHeader{
+  text-align: left;
+}
+
+/* footer footer footer footer */
+footer{
+  background-color: var(--dark-charcoal);
+  color: var(--ivory);
+}
+
+footer a {
+  display: block;
+  color:inherit;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+
+
+/* loading loader */
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 3px solid var(--electric-teal);
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.loader::after {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: var(--burnished-gold) transparent;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+
+
+/* animation animation animation animation animation animation */
+.sectionAnimationLeft{
+  scroll-behavior: smooth;
+  animation: backInLeft;
+  animation-duration: 1.5s;
+}
+.sectionAnimationDown{
+  scroll-behavior: smooth;
+  animation:fadeInDownBig;
+  animation-duration: 1.2s;
+}
+
+.sectionAnimationUp{
+  scroll-behavior: smooth;
+  animation:fadeInUpBig;
+  animation-duration: 1.2s;
+
+}
+.sectionAnimationRight{
+  scroll-behavior: smooth;
+  animation: backInRight;
+  animation-duration: 1.2s;
+}
+
+
+/* Remove blue glow and focus box shadow for all AntD inputs */
+/* Base picker styling */
+.ant-picker {
+  height: 40px !important;
+  padding: 8px 12px !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+  outline: none !important;
+  transition: none !important;
+  display: flex;
+  align-items: center;
+}
+
+/* Remove default blue glow and box shadow on focus */
+.ant-picker-focused,
+.ant-picker:hover,
+.ant-picker:focus {
+  border-color: #d9d9d9 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Input inside picker */
+.ant-picker input {
+  font-size: 16px !important;
+  padding: 0 !important; /* handled by container */
+  height: 100% !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+/* Placeholder text styling */
+.ant-picker input::placeholder {
+  color: #999;
+  opacity: 1; /* to ensure consistent placeholder color */
+}
+
+/* Clear icon */
+.ant-picker-clear {
+  margin-right: 8px !important;
+}
+
+/* Suffix Icon (calendar / clock icon) */
+.ant-picker-suffix {
+  font-size: 18px !important;
+  color: #999;
+  padding-left: 8px !important;
+  display: flex;
+  align-items: center;
+}
+
+/* Dropdown panel (optional: you can style popup panel) */
+.ant-picker-dropdown {
+  border-radius: 6px !important;
+}
+
+/* Remove hover glow on dropdown triggers */
+.ant-picker:hover .ant-picker-input > input {
+  border-color: #d9d9d9 !important;
+  box-shadow: none !important;
+}
+
+/* If you want to style TimePicker panel similarly */
+.ant-picker-time-panel {
+  font-size: 16px !important;
+}
+
+.ant-input:focus,
+.ant-input-focused,
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  box-shadow: none !important;
+  outline: none !important;
+  border-color: #d9d9d9 !important; /* Optional: reset to default gray border */
+}
+
+/* Optional: Prevent padding shift if you're using Affix (prefix/suffix icons) */
+/* Remove focus and hover effects on all Ant Design inputs */
+.ant-input,
+.ant-input-affix-wrapper,
+.ant-input:hover,
+.ant-input:focus,
+.ant-input-focused,
+.ant-input-affix-wrapper:hover,
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  box-shadow: none !important;
+  outline: none !important;
+  border-color: #d9d9d9 !important; /* Reset to default or your custom color */
+}
+
+/* For TextArea */
+.ant-input-textarea,
+.ant-input-textarea:hover,
+.ant-input-textarea:focus,
+.ant-input-textarea-focused {
+  box-shadow: none !important;
+  outline: none !important;
+  border-color: #d9d9d9 !important;
+}
+/* Textarea */
+textarea.ant-input {
+  min-height: 120px !important;
+  height: auto !important;
+  padding: 12px !important;
+  resize: none;
+}
+
+/* For Select */
+.ant-select-selector,
+.ant-select-selector:hover,
+.ant-select-focused .ant-select-selector {
+  box-shadow: none !important;
+  border-color: #d9d9d9 !important;
+}
+/* Prevent transitions that may cause "jumps" */
+.ant-input,
+.ant-input-affix-wrapper {
+  transition: none !important;
+}
+.ant-input:hover,
+.ant-input:focus {
+  border-color: #aaa !important;
+}
+
+input,
+textarea,
+.ant-input,
+.ant-input-affix-wrapper input {
+  font-size: 16px !important;
+}
+.ant-input,
+.ant-input-affix-wrapper {
+  height: 40px !important; /* Or whatever height you want */
+  padding: 8px 12px !important;
+  line-height: 1.5 !important;
+}
+
+
+
+/* Style the Input.Password wrapper */
+.ant-input-password {
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 6px !important;
+  padding: 0 !important; /* let inner input handle spacing */
+  height: 40px !important;
+  box-shadow: none !important;
+  display: flex;
+  align-items: center;
+}
+
+/* Style the actual password input inside */
+.ant-input-password input {
+  padding: 8px 12px !important;
+  font-size: 16px !important;
+  height: 100% !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove glow or shift on focus/hover */
+.ant-input-password:focus,
+.ant-input-password-focused,
+.ant-input-password:hover {
+  border-color: #d9d9d9 !important;
+  box-shadow: none !important;
+}
+
+/* Optional: fix autofill alignment */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+  box-shadow: 0 0 0 1000px white inset !important;
+}
+.ant-input-password .ant-input-suffix {
+  padding-right: 8px !important; /* or more if you want more space */
+  display: flex;
+  align-items: center;
+}
+

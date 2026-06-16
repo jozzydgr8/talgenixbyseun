@@ -1,0 +1,96 @@
+
+:root {
+  --deep-charcoal: #232329;
+  --dark-charcoal:#141418;
+  --burnished-gold: #b8860b;
+  --electric-teal: #008080;
+  --transparent-electric-teal: rgba(0, 128, 128, 0.2);
+  --deep-dark-teal: #006666;
+ --light-gold: #E6C76A;
+ --transparent-gold: rgba(184, 134, 11, 0.2);
+  --ivory:#fffaf0;
+ 
+}
+.blogTag{
+    background:var(--transparent-electric-teal);
+    color:var(--electric-teal);
+    padding: 4px 8px;   
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight:bold;
+
+}
+
+/* hero-section---hero-section --hero */
+#blogHero small{
+    color:gray;
+}
+.blogHeroWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.blogHeroGrade {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.blogHeroGrade .icon-style {
+  font-size: 28px;
+  background: var(--transparent-electric-teal);
+  color: var(--electric-teal);
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .blogHeroWrapper {
+    flex-direction: column;
+  }
+
+  .blogHeroGrade {
+    width: 100%;
+  }
+
+  .blogHeroGrade h6 {
+    font-size: 14px;
+  }
+
+  .blogHeroGrade small {
+    font-size: 12px;
+  }
+
+  .blogHeroGrade .icon-style {
+    font-size: 22px;
+    padding: 10px;
+  }
+}
+/* --bloglist--bloglist--bloglist */
+.blogListCard{
+  background-color:var(--dark-charcoal);
+  border-radius:20px ;
+  
+ 
+}
+
+
+/* --author--author-about--author */
+.authorTag {
+  display: inline-block;
+  color: var(--light-gold);
+  background-color: var(--transparent-gold);
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
