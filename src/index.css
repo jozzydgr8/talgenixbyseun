@@ -160,7 +160,7 @@ background-color: var(--burnished-gold);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
+ 
 }
 #hero .container-fluid{
   color: var(--ivory);
