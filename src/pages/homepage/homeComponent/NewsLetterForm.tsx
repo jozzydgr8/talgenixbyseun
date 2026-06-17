@@ -24,7 +24,8 @@ const Styles = {
         padding:"30px",
         color:"black",
         backgroundColor:"white",
-        borderRadius:"12px"
+        borderRadius:"12px",
+        boxShadow:" 0 4px 6px -1px var(--electric-teal)"
     },
     formInput:{
         width:"100%",

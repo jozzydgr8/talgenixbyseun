@@ -13,7 +13,8 @@ const Styles = {
         margin:"10px 0",
          display:'flex',
          alignItems:'center',
-         gap:'12px'
+         gap:'12px',
+          boxShadow:" 0 4px 6px -1px var(--electric-teal)"
     },
     iconContainer:{
         minWidth: "52px",

@@ -93,7 +93,7 @@ p.subtopic, .homeBadgeParent {
 }
 
 section > .container-fluid, footer > .container-fluid{
-  padding:5% 7%;
+  padding:8% 10%;
 }
 /* nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav--nav */
 nav{
@@ -102,7 +102,7 @@ nav{
   
 }
 nav .container-fluid{
-  padding:1% 7% ;
+  padding:1% 10% ;
 }
 
 /* button button button button */
