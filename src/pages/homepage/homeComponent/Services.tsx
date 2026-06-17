@@ -1,7 +1,6 @@
 import {servicesData} from '../../../shared/Data'
 import { FlatButton } from '../../../shared/FlatButton'
 import {RightOutlined} from '@ant-design/icons'
-import { Badge } from 'antd';
 export const Services = ()=>{
     return(
         <section id='services'>
@@ -16,7 +15,7 @@ export const Services = ()=>{
                     </span>
                 </div>
                 <br/>
-                <h2 className='homeHeader'>Services that drive results</h2>
+                <h2 className='homeHeader'>Services I Provide For My Clients</h2>
                 <p className='subtopic'>Comprehensive data and AI solutions tailored
                      to transform your business operations and decision-making processes.
                 </p>
@@ -44,9 +43,7 @@ export const Services = ()=>{
                     ))}
                 </div>
                 <br/>
-                <div style={{textAlign:'center'}}>
-                    <FlatButton title="Explore all services" className='btn-xl btnPrimary btn'/>
-                </div>
+                
                     
             </div>
         </section>
@@ -57,6 +54,8 @@ export const Services = ()=>{
         
     )
 }
+
+
 
 
 {/* <div className="horizontal-scroll">

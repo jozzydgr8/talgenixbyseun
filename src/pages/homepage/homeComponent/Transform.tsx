@@ -40,7 +40,7 @@ export const Transform = ()=>{
                 <br/>
 
                 <h2 className="homeHeader">
-                    Let's Transform Your Data Journey
+                    Get my tips directly into your inbox.
                 </h2>
                 <p className="subtopic">
 

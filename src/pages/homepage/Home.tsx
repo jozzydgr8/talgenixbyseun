@@ -10,8 +10,8 @@ export const Home = ()=>{
         <>
         <Hero/>
         <Services/>
-        <Portfolio/>
         <TrainingConsulting/>
+         <Portfolio/>
         <Transform/>
         <Footer/>
         </>

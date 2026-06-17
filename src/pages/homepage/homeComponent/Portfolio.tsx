@@ -1,5 +1,5 @@
 import { portfolioData } from "../../../shared/Data"
-import { FlatButton } from "../../../shared/FlatButton"
+
 
 export const Portfolio = ()=>{
     return(
@@ -13,7 +13,7 @@ export const Portfolio = ()=>{
                     </span>
             </div>
                 <br/>
-                <h2 className='homeHeader'>Recent Projects</h2>
+                <h2 className='homeHeader'>Projects & Results</h2>
                 <p className='subtopic'>
                     A showcase of successful data analytics, BI dashboard, and automation solutions delivered for clients across various industries.
                 </p>
@@ -43,9 +43,7 @@ export const Portfolio = ()=>{
                     </div>
                 ))}
             </div>
-            <div style={{textAlign:'center'}}>
-                <FlatButton title="View all projects" className='btn-xl btnSecondary btn'/>
-            </div>
+            
             </div>
         </section>
     )

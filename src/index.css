@@ -149,12 +149,18 @@ background-color: var(--burnished-gold);
   border-radius: 0.5rem;
 }
 
+.currentActive, .currentActive:hover{
+  color:white;
+  background-color: var(--light-gold);
+}
+
 /* hero-section-hero-sectio */
 #hero{
   background-image: url('./assets/dataAnalysisImage.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 #hero .container-fluid{
   color: var(--ivory);
@@ -436,7 +442,9 @@ background-color: var(--burnished-gold);
 }
 
 /* training trainng traning */
-
+#training{
+  background-color: var(--transparent-electric-teal);
+}
 #training .subtopic, #training .homeHeader{
   text-align: left;
 }

@@ -1,7 +1,7 @@
 /* product list  */
 .blogscontainer{
   width:400px;
-  box-shadow: 0 4px 6px -1px var(--color-darkblue);
+  box-shadow: 0 4px 6px -1px var(--deep-dark-teal);
   margin: 15px 8px;
   padding:30px;
   border-radius: 15px;
@@ -11,12 +11,12 @@
   padding: 15px;
   height:200px;
   overflow-y: auto;
-   box-shadow: 0 4px 6px -1px var(--color-darkblue);
+   box-shadow: 0 4px 6px -1px var(--deep-dark-teal);
    border-radius: 15px;
    margin-bottom: 20px;
 }
 .scrollablediv > div{
-    border-bottom: solid 1px var(--color-darkblue);
+    border-bottom: solid 1px var(--deep-dark-teal);
     border-radius: 7px;
     padding: 10px;
 }
