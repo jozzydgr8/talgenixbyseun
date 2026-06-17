@@ -25,7 +25,7 @@ export const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto align-items-center">
+          <ul className="navbar-nav ms-auto ">
 
             {/* Home Link: Uses NavLink's built-in isActive state */}
             <li className="nav-item">
@@ -33,7 +33,7 @@ export const Navbar = () => {
                 to="/"
                 end /* 'end' ensures it doesn't match every route starting with / */
                 className={({ isActive }) => 
-                  `nav-link ${isActive && !location.hash ? 'currentActive btn ' : ''}`
+                  `nav-link ${isActive && !location.hash ? 'currentActive  ' : ''}`
                 }
               >
                 Home
@@ -44,7 +44,7 @@ export const Navbar = () => {
             <li className="nav-item">
               <a 
                 href="/#services" 
-                className={`nav-link ${isHashActive('#services') ? 'currentActive btn ' : ''}`}
+                className={`nav-link ${isHashActive('#services') ? 'currentActive  ' : ''}`}
               >
                 Services
               </a>
@@ -54,7 +54,7 @@ export const Navbar = () => {
             <li className="nav-item">
               <a 
                 href="/#portfolio" 
-                className={`nav-link ${isHashActive('#portfolio') ? 'currentActive btn ' : ''}`}
+                className={`nav-link ${isHashActive('#portfolio') ? 'currentActive  ' : ''}`}
               >
                 Projects
               </a>
@@ -65,7 +65,7 @@ export const Navbar = () => {
               <NavLink 
                 to="/blog" 
                 className={({ isActive }) => 
-                  `nav-link ${isActive ? 'currentActive btn ' : ''}`
+                  `nav-link ${isActive ? 'currentActive ' : ''}`
                 }
               >
                 Blog

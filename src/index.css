@@ -152,6 +152,10 @@ background-color: var(--burnished-gold);
 .currentActive, .currentActive:hover{
   color:white;
   background-color: var(--light-gold);
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right:5px;
 }
 
 /* hero-section-hero-sectio */
