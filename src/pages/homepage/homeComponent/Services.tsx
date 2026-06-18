@@ -16,8 +16,7 @@ export const Services = ()=>{
                 </div>
                 <br/>
                 <h2 className='homeHeader'>Services I Provide For My Clients</h2>
-                <p className='subtopic'>Comprehensive data and AI solutions tailored
-                     to transform your business operations and decision-making processes.
+                <p className='subtopic'>Explore my data and AI solutions
                 </p>
 
                 

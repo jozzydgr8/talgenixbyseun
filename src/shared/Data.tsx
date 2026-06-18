@@ -176,8 +176,8 @@ export const trainingFeatures = [
 
  export const businessDetails = [
   {
-  "email": "seun.ogunsanya@email.com",
-  "phone": "+1 (555) 123-4567",
+  "email": "seunaiconsulting@gmail.com",
+  "phone": "+234 706 304 2461",
   "business_hours": {
     "days": "Mon - Fri",
     "hours": "9:00 AM - 6:00 PM"

@@ -53,8 +53,8 @@ export const Footer = ()=>{
                     <div className="col-md-3">
                         <h3>Get In Touch</h3>
                         <br/>
-                        <p><PhoneOutlined style={{fontSize:"20px", color:"#008080", paddingRight:"10px"}} />  +1 (123) 456-7890</p>
-                        <p><MailOutlined style={{fontSize:"20px", color:"#008080", paddingRight:"10px"}} />  info@seunogunsanya.com</p>
+                        <p><PhoneOutlined style={{fontSize:"20px", color:"#008080", paddingRight:"10px"}} />  +234 706 304 2461</p>
+                        <p><MailOutlined style={{fontSize:"20px", color:"#008080", paddingRight:"10px"}} />  seunaiconulting@gmail.com</p>
                         <p><EnvironmentOutlined style={{fontSize:"20px", color:"#008080", paddingRight:"10px"}}/>  Africa / Remote worldwide</p>
                         <FlatButton title="Contact Us" className="btn btnSuccess btn-lg" icon={<ArrowRightOutlined/>}/>
                     </div>

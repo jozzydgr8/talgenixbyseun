@@ -26,10 +26,11 @@ export const Hero = ()=>{
                     <br/>
                     <div className="heroBottom">
                         <p className="subtopic">
-                             Ready to transform your business with data-driven decisions? Click below and unlock smarter growth, efficiency, and innovation.
+                            I believe clarity wins. In a world full of noise and complexity, I help turn data into sharp insight, better decisions, and stronger outcomes.
+                             Ready to transform your business with data-driven decisions?
                         </p>
 
-                        <FlatButton title="Get Started Today!" className=" btn btnPrimary btn-xl"/>
+                        <a href="/#transform"><FlatButton title="Get Started Today!" className=" btn btnPrimary btn-xl"/></a>
                         <hr/>
                             <div className="hero-accolades">
                                 <div>

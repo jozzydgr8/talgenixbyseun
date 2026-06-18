@@ -30,7 +30,7 @@ const Styles = {
 }
 export const Transform = ()=>{
     return(
-        <section>
+        <section id="transform">
             <div className="container-fluid">
                 <div style={{textAlign:'center'}}>
                     <span className='homeBadgeParent '> 

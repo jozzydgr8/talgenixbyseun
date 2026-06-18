@@ -15,7 +15,7 @@ export const Portfolio = ()=>{
                 <br/>
                 <h2 className='homeHeader'>Projects & Results</h2>
                 <p className='subtopic'>
-                    A showcase of successful data analytics, BI dashboard, and automation solutions delivered for clients across various industries.
+                    My projects in data analytics and automation across different industries
                 </p>
 
                 <div className="row">

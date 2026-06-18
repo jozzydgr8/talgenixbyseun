@@ -28,7 +28,7 @@ export const BlogsListed = ()=>{
                             {blogs.title}
                         </strong>
                         <div>
-                            <NavLink to={`/admin_jctbdil1$/blogs/${blogs._id}`}><FlatButton title="View blog" className="btn btnSecondary"/></NavLink>
+                            <NavLink to={`/admin_jctbdil1$/blogs/${blogs._id}`}><FlatButton title="View blog" className="btn btnPrimary"/></NavLink>
                         </div>
                     </div>
                    
