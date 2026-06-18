@@ -6,18 +6,17 @@ export const BlogHero = ()=>{
         <section id='blogHero'>
             <div className="container-fluid">
                  <div style={{textAlign:'center'}}>
-                    <span className='homeBadgeParent '> 
+                    {/* <span className='homeBadgeParent '> 
                     <span className='homeBadge'></span>
                     Data Analytics & AI Consulting
-                    </span>
+                    </span> */}
                    
                 
                 <h1 style={{marginTop:'30px'}}>
                     Insights on Data, AI & Business Transformation
                 </h1>
                 <p className='subtopic'>
-                    Strategic perspectives, practical frameworks, and actionable knowledge on analytics, artificial intelligence, automation, 
-                    and digital transformation — built for executives, professionals, and organizations driving meaningful change.
+                   Strategic insights and practical frameworks on analytics, AI, automation, and digital transformation for leaders and organizations.
                 </p>
                 <br/>
 

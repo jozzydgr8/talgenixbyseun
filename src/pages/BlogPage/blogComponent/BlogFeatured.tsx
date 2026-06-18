@@ -19,7 +19,7 @@ export const BlogFeatured = ()=>{
     return(
         <section id='blogFeatured'>
             <div className="container-fluid">
-                <h2 className="text-center">Featured Article</h2>
+                <h2 className="">Featured Article</h2>
                
                     {
                         featuredBlog && (
