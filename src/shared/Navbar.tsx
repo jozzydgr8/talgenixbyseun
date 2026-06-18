@@ -71,6 +71,7 @@ export const Navbar = () => {
                 Blog
               </NavLink>
             </li>
+            <br/>
             
             <li className="nav-item">
               <FlatButton 

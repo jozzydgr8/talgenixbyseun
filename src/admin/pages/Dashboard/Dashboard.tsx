@@ -8,13 +8,13 @@ export const Dashboard = ()=>{
                 <h2>Dashboard</h2>
                 <div className="row">
                     <div className="col-md-6">
-                        <div style={{background:"white", padding:'12px', borderRadius:'5px', marginBottom:'12px'}}>
+                        <div style={{background:"white", padding:'12px', borderRadius:'5px', marginBottom:'12px',  boxShadow: '0 4px 6px -1px var(--deep-dark-teal)'}}>
                             <BlogsListed/>
                         </div>
                     </div>
 
                     <div className="col-md-6">
-                        <div style={{background:"white", padding:'12px', borderRadius:'5px'}}>
+                        <div style={{background:"white", padding:'12px', borderRadius:'5px',  boxShadow: '0 4px 6px -1px var(--deep-dark-teal)'}}>
                             <SubscriberList/>
                         </div>
                     </div>
